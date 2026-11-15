@@ -114,7 +114,11 @@ def main():
         print("Каталог коректний.")
         return
 
-    if normalized == raw:
+    readme_count = None
+    if os.path.exists(README_FILE):
+        m = re.search(r"<!-- COUNT_START -->\*\*(\d+)", open(README_FILE, encoding="utf-8").read())
+        readme_count = int(m.group(1)) if m else None
+    if normalized == raw and readme_count == len(sorted_palette):
         print("Змін немає — README не оновлюється.")
         return
     with open(PALETTE_FILE, "w", encoding="utf-8") as f:

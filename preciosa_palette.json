@@ -1,3516 +1,3383 @@
 [
   {
     "code": "00050",
-    "nameUk": "Прозорий кришталь чистий",
+    "nameUk": "Світло-сірий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#F0F4F8",
+    "hex": "#C6D2CF",
     "symbol": "✧"
   },
   {
-    "code": "01100",
-    "nameUk": "Прозорий з легким сріблом",
-    "finish": "TRANSPARENT",
-    "hex": "#E8ECEF",
-    "symbol": "◇"
+    "code": "00101",
+    "nameUk": "Сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#7C8A9D",
+    "symbol": "♠"
   },
   {
-    "code": "01111",
-    "nameUk": "Прозорий з блідо-рожевим відтінком",
-    "finish": "TRANSPARENT",
-    "hex": "#FCE4EC",
-    "symbol": "▲"
+    "code": "00102",
+    "nameUk": "Кораловий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#B38D83",
+    "symbol": "♣"
   },
   {
-    "code": "01121",
-    "nameUk": "Прозорий з блідо-жовтим відтінком",
-    "finish": "TRANSPARENT",
-    "hex": "#FFFDE7",
-    "symbol": "▼"
+    "code": "00103",
+    "nameUk": "Зелений матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#83AD8F",
+    "symbol": "♥"
   },
   {
-    "code": "01131",
-    "nameUk": "Прозорий з блідо-зеленим відтінком",
-    "finish": "TRANSPARENT",
-    "hex": "#E8F5E9",
-    "symbol": "◆"
+    "code": "00104",
+    "nameUk": "Сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#6E7E77",
+    "symbol": "♦"
   },
   {
-    "code": "01141",
-    "nameUk": "Прозорий з блідо-блакитним відтінком",
-    "finish": "TRANSPARENT",
-    "hex": "#E1F5FE",
-    "symbol": "◇"
+    "code": "00105",
+    "nameUk": "Сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#948B8F",
+    "symbol": "◐"
   },
   {
-    "code": "01151",
-    "nameUk": "Прозорий з блідо-бузковим відтінком",
-    "finish": "TRANSPARENT",
-    "hex": "#F3E5F5",
+    "code": "00106",
+    "nameUk": "Сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#939A8E",
+    "symbol": "◑"
+  },
+  {
+    "code": "00207",
+    "nameUk": "Сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#948379",
+    "symbol": "◒"
+  },
+  {
+    "code": "00208",
+    "nameUk": "Синій матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#6F79A4",
+    "symbol": "◓"
+  },
+  {
+    "code": "00209",
+    "nameUk": "Червоний матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#B49791",
+    "symbol": "●"
+  },
+  {
+    "code": "00210",
+    "nameUk": "Зелений матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#82B092",
     "symbol": "○"
   },
   {
-    "code": "01161",
-    "nameUk": "Прозорий з димчастим відблиском",
-    "finish": "TRANSPARENT",
-    "hex": "#ECEFF1",
-    "symbol": "◌"
+    "code": "00211",
+    "nameUk": "Сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#89938D",
+    "symbol": "▲"
   },
   {
-    "code": "01181",
-    "nameUk": "Прозорий медовий відблиск",
-    "finish": "TRANSPARENT",
-    "hex": "#FFF8E1",
-    "symbol": "◈"
+    "code": "00212",
+    "nameUk": "Сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#988C91",
+    "symbol": "△"
   },
   {
-    "code": "01191",
-    "nameUk": "Прозорий персиковий відблиск",
-    "finish": "TRANSPARENT",
-    "hex": "#FBE9E7",
-    "symbol": "✚"
+    "code": "00213",
+    "nameUk": "Сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#9C988E",
+    "symbol": "■"
   },
   {
-    "code": "01211",
-    "nameUk": "Прозорий райдужний ірис кришталь",
-    "finish": "IRIS",
-    "hex": "#F5F5F5",
-    "symbol": "✖"
+    "code": "00302",
+    "nameUk": "Кораловий прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#A57566",
+    "symbol": "◆"
   },
   {
-    "code": "01221",
-    "nameUk": "Прозорий теплий райдужний",
-    "finish": "IRIS",
-    "hex": "#FFF9C4",
+    "code": "00303",
+    "nameUk": "Зелений прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#79A684",
+    "symbol": "◇"
+  },
+  {
+    "code": "00304",
+    "nameUk": "Сірий прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#5C665F",
+    "symbol": "▼"
+  },
+  {
+    "code": "00307",
+    "nameUk": "Коричневий прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#876659",
+    "symbol": "▽"
+  },
+  {
+    "code": "00308",
+    "nameUk": "Синій прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#56608A",
     "symbol": "★"
   },
   {
-    "code": "01231",
-    "nameUk": "Прозорий зеленуватий ірис",
-    "finish": "IRIS",
-    "hex": "#E8F5E9",
+    "code": "00309",
+    "nameUk": "Червоний прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#A27E77",
     "symbol": "☆"
   },
   {
-    "code": "01251",
-    "nameUk": "Прозорий рожевуватий ірис",
-    "finish": "IRIS",
-    "hex": "#FCE4EC",
-    "symbol": "✪"
+    "code": "00310",
+    "nameUk": "Зелений прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#789C85",
+    "symbol": "⬡"
   },
   {
-    "code": "01261",
-    "nameUk": "Прозорий блакитнуватий ірис",
-    "finish": "IRIS",
-    "hex": "#E1F5FE",
-    "symbol": "❂"
+    "code": "00311",
+    "nameUk": "Сірий прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#757873",
+    "symbol": "⬢"
   },
   {
-    "code": "01281",
-    "nameUk": "Прозорий димчастий ірис",
-    "finish": "IRIS",
-    "hex": "#ECEFF1",
-    "symbol": "❃"
+    "code": "00312",
+    "nameUk": "Сірий прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#827272",
+    "symbol": "◈"
   },
   {
-    "code": "01291",
-    "nameUk": "Прозорий бузковий ірис",
-    "finish": "IRIS",
-    "hex": "#F3E5F5",
+    "code": "00313",
+    "nameUk": "Сірий прозорий вогник, зі смужками",
+    "finish": "SILVER_LINED",
+    "hex": "#7F8776",
+    "symbol": "¤"
+  },
+  {
+    "code": "01700",
+    "nameUk": "Сірий глухий, бронзовий відлив",
+    "finish": "OPAQUE",
+    "hex": "#7D8B7D",
+    "symbol": "♠"
+  },
+  {
+    "code": "01710",
+    "nameUk": "Бурштиновий глухий, бронзовий відлив",
+    "finish": "OPAQUE",
+    "hex": "#8F8252",
+    "symbol": "♣"
+  },
+  {
+    "code": "01770",
+    "nameUk": "Коричневий глухий, бронзовий відлив",
+    "finish": "OPAQUE",
+    "hex": "#8B6649",
     "symbol": "♥"
   },
   {
     "code": "02090",
-    "nameUk": "Білий алебастровий фарфор",
+    "nameUk": "Світло-сірий глухий",
     "finish": "OPAQUE",
-    "hex": "#F5F5F5",
+    "hex": "#C8D9E4",
     "symbol": "◌"
   },
   {
-    "code": "02100",
-    "nameUk": "Матовий білий напівпрозорий",
-    "finish": "MATTE",
-    "hex": "#EEEEEE",
-    "symbol": "◍"
-  },
-  {
-    "code": "02110",
-    "nameUk": "Матовий молочний алебастр",
-    "finish": "MATTE",
-    "hex": "#F5F5F0",
-    "symbol": "⬟"
-  },
-  {
-    "code": "02120",
-    "nameUk": "Матовий кремовий сатин",
-    "finish": "MATTE",
-    "hex": "#F5F0EB",
-    "symbol": "◎"
-  },
-  {
-    "code": "02130",
-    "nameUk": "Матовий пісочний сатин",
-    "finish": "MATTE",
-    "hex": "#EDE7E1",
-    "symbol": "⬡"
-  },
-  {
-    "code": "02140",
-    "nameUk": "Матовий блідо-рожевий сатин",
-    "finish": "MATTE",
-    "hex": "#F8E4E8",
-    "symbol": "☼"
-  },
-  {
-    "code": "02150",
-    "nameUk": "Матовий слонова кістка сатин",
-    "finish": "MATTE",
-    "hex": "#F5F2EB",
-    "symbol": "☽"
-  },
-  {
-    "code": "02160",
-    "nameUk": "Матовий блідо-жовтий сатин",
-    "finish": "MATTE",
-    "hex": "#FFF9C4",
-    "symbol": "✿"
-  },
-  {
-    "code": "02170",
-    "nameUk": "Матовий ванільний сатин",
-    "finish": "MATTE",
-    "hex": "#FFF8E7",
-    "symbol": "❀"
-  },
-  {
-    "code": "02180",
-    "nameUk": "Матовий світло-сірий сатин",
-    "finish": "MATTE",
-    "hex": "#E0E0E0",
-    "symbol": "▰"
-  },
-  {
-    "code": "02190",
-    "nameUk": "Матовий димчастий алебастр",
-    "finish": "MATTE",
-    "hex": "#E5E5E5",
-    "symbol": "▱"
-  },
-  {
     "code": "03050",
-    "nameUk": "Білий крейдяний глухий",
+    "nameUk": "Білий глухий",
     "finish": "OPAQUE",
-    "hex": "#FFFFFF",
+    "hex": "#E6F2F4",
     "symbol": "○"
   },
   {
-    "code": "03111",
-    "nameUk": "Молочний фарфоровий теплий",
+    "code": "03330",
+    "nameUk": "Світло-сірий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#FAF6EE",
-    "symbol": "▤"
+    "hex": "#C5D6E5",
+    "symbol": "◇"
   },
   {
-    "code": "03121",
-    "nameUk": "Світло-кремовий фарфор",
+    "code": "03331",
+    "nameUk": "Світло-блакитний глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#F7F2E7",
-    "symbol": "▥"
+    "hex": "#B3C8E3",
+    "symbol": "⬢"
   },
   {
-    "code": "03131",
-    "nameUk": "Світла слонова кістка глухий",
+    "code": "03370",
+    "nameUk": "Світло-сірий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#F5EBE1",
-    "symbol": "◽"
+    "hex": "#B8B4C4",
+    "symbol": "☆"
   },
   {
-    "code": "03141",
-    "nameUk": "Кремовий пастельний глухий",
+    "code": "03390",
+    "nameUk": "Фіолетовий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#F0E6D8",
-    "symbol": "◾"
+    "hex": "#9386A4",
+    "symbol": "♦"
   },
   {
-    "code": "03151",
-    "nameUk": "Бежевий кремовий глухий",
+    "code": "03590",
+    "nameUk": "Білий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#D7CCC8",
-    "symbol": "▱"
+    "hex": "#D1E0E5",
+    "symbol": "⬡"
   },
   {
-    "code": "03161",
-    "nameUk": "Теплий кремовий глухий",
+    "code": "03591",
+    "nameUk": "Світло-сірий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#ECE0D1",
-    "symbol": "▶"
+    "hex": "#C3D0D6",
+    "symbol": "♠"
   },
   {
-    "code": "03171",
-    "nameUk": "Бежевий ванільний глухий",
+    "code": "03740",
+    "nameUk": "Світло-сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#B6CAD2",
+    "symbol": "◈"
+  },
+  {
+    "code": "03850",
+    "nameUk": "Білий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#E4D5C3",
-    "symbol": "◁"
+    "hex": "#CDE5E0",
+    "symbol": "▼"
   },
   {
-    "code": "03181",
-    "nameUk": "Світлий капучино глухий",
+    "code": "03851",
+    "nameUk": "Світло-смарагдовий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#DDD0BF",
-    "symbol": "◀"
+    "hex": "#B1DBD0",
+    "symbol": "◈"
   },
   {
-    "code": "03211",
-    "nameUk": "Світло-бежевий капучино",
+    "code": "03890",
+    "nameUk": "Світло-сірий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#EFEBE9",
-    "symbol": "▰"
+    "hex": "#E1D9DC",
+    "symbol": "☆"
   },
   {
-    "code": "03221",
-    "nameUk": "Бежевий пудровий світлий",
+    "code": "03891",
+    "nameUk": "Світло-сірий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#E8DFD8",
-    "symbol": "▾"
+    "hex": "#E7D2D2",
+    "symbol": "¤"
   },
   {
-    "code": "03231",
-    "nameUk": "Бежевий пудровий глухий",
+    "code": "03910",
+    "nameUk": "Червоний глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#EAD8C7",
-    "symbol": "▵"
+    "hex": "#B77A78",
+    "symbol": "◐"
   },
   {
-    "code": "03241",
-    "nameUk": "Бежевий піщаний світлий",
+    "code": "03930",
+    "nameUk": "Світло-сірий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#E2D3C0",
-    "symbol": "▴"
+    "hex": "#D1DAE8",
+    "symbol": "▽"
   },
   {
-    "code": "03251",
-    "nameUk": "Бежевий пісочний",
+    "code": "03931",
+    "nameUk": "Світло-сірий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#D7CCC8",
-    "symbol": "▱"
+    "hex": "#CED0E0",
+    "symbol": "♣"
   },
   {
-    "code": "03261",
-    "nameUk": "Пісочно-карамельний глухий",
+    "code": "03950",
+    "nameUk": "Світло-сірий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#D0BFB0",
-    "symbol": "✦"
+    "hex": "#D7D6D5",
+    "symbol": "★"
   },
   {
-    "code": "03271",
-    "nameUk": "Темно-кремовий карамельний",
+    "code": "03951",
+    "nameUk": "Світло-сірий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#C8B6A6",
-    "symbol": "✧"
-  },
-  {
-    "code": "03281",
-    "nameUk": "Кавово-бежевий глухий",
-    "finish": "OPAQUE",
-    "hex": "#C2AEA0",
-    "symbol": "✵"
-  },
-  {
-    "code": "03291",
-    "nameUk": "Темно-бежевий какао",
-    "finish": "OPAQUE",
-    "hex": "#BCAAA4",
-    "symbol": "▰"
-  },
-  {
-    "code": "07111",
-    "nameUk": "Перлинно-рожевий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#FFE4E1",
-    "symbol": "✷"
-  },
-  {
-    "code": "07131",
-    "nameUk": "Перлинно-кремовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#FFFDD0",
-    "symbol": "✸"
-  },
-  {
-    "code": "07151",
-    "nameUk": "Срібний вогник блідо-золотистий",
-    "finish": "SILVER_LINED",
-    "hex": "#FFF8DC",
-    "symbol": "✹"
-  },
-  {
-    "code": "07171",
-    "nameUk": "Срібний вогник шампань",
-    "finish": "SILVER_LINED",
-    "hex": "#F7E7CE",
-    "symbol": "❄"
-  },
-  {
-    "code": "07191",
-    "nameUk": "Срібний вогник світло-димчастий",
-    "finish": "SILVER_LINED",
-    "hex": "#E5E4E2",
-    "symbol": "●"
-  },
-  {
-    "code": "08149",
-    "nameUk": "Білий перламутр опаловий",
-    "finish": "LUSTRE",
-    "hex": "#F5F5F5",
+    "hex": "#C9CEC5",
     "symbol": "♥"
   },
   {
-    "code": "08249",
-    "nameUk": "Ніжно-кремовий перламутр",
+    "code": "03960",
+    "nameUk": "Світло-сірий глухий, зі смужками",
+    "finish": "OPAQUE",
+    "hex": "#C9D2C5",
+    "symbol": "⬡"
+  },
+  {
+    "code": "04330",
+    "nameUk": "Світло-сірий бензиновий ірис, зі смужками",
+    "finish": "IRIS",
+    "hex": "#CDDEE2",
+    "symbol": "¤"
+  },
+  {
+    "code": "04590",
+    "nameUk": "Світло-сірий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#C3D5D7",
+    "symbol": "◐"
+  },
+  {
+    "code": "04730",
+    "nameUk": "Синій матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#8E9BB9",
+    "symbol": "△"
+  },
+  {
+    "code": "04740",
+    "nameUk": "Світло-сірий бензиновий ірис, зі смужками",
+    "finish": "IRIS",
+    "hex": "#B6CCCE",
+    "symbol": "♦"
+  },
+  {
+    "code": "04931",
+    "nameUk": "Світло-сірий бензиновий ірис, зі смужками",
+    "finish": "IRIS",
+    "hex": "#C0C4D2",
+    "symbol": "♠"
+  },
+  {
+    "code": "07331",
+    "nameUk": "Кораловий глухий, фарбований",
+    "finish": "OPAQUE",
+    "hex": "#D59F85",
+    "symbol": "◒"
+  },
+  {
+    "code": "07332",
+    "nameUk": "Помаранчевий глухий, фарбований",
+    "finish": "OPAQUE",
+    "hex": "#DFAE8B",
+    "symbol": "◓"
+  },
+  {
+    "code": "07631",
+    "nameUk": "Кораловий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#C79A84",
+    "symbol": "●"
+  },
+  {
+    "code": "07633",
+    "nameUk": "Кораловий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#D1A189",
+    "symbol": "○"
+  },
+  {
+    "code": "08118",
+    "nameUk": "Бежевий перламутровий",
     "finish": "LUSTRE",
-    "hex": "#FFF8E1",
-    "symbol": "♡"
+    "hex": "#BDB49E",
+    "symbol": "◈"
+  },
+  {
+    "code": "08128",
+    "nameUk": "Волошковий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#AAA3C4",
+    "symbol": "♠"
+  },
+  {
+    "code": "08136",
+    "nameUk": "Блакитний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#85ADD0",
+    "symbol": "♥"
+  },
+  {
+    "code": "08149",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#95AAAA",
+    "symbol": "♥"
+  },
+  {
+    "code": "08158",
+    "nameUk": "Бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#68BFB6",
+    "symbol": "◒"
+  },
+  {
+    "code": "08186",
+    "nameUk": "Світло-салатовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#BDD394",
+    "symbol": "●"
+  },
+  {
+    "code": "08192",
+    "nameUk": "Бежевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D2C49A",
+    "symbol": "▲"
+  },
+  {
+    "code": "08198",
+    "nameUk": "Рожевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D3AAB2",
+    "symbol": "■"
+  },
+  {
+    "code": "08225",
+    "nameUk": "Малиновий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#996387",
+    "symbol": "▲"
+  },
+  {
+    "code": "08228",
+    "nameUk": "Бузковий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#967D98",
+    "symbol": "△"
+  },
+  {
+    "code": "08236",
+    "nameUk": "Блакитний прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#37739F",
+    "symbol": "▼"
+  },
+  {
+    "code": "08256",
+    "nameUk": "Смарагдовий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#69A281",
+    "symbol": "□"
+  },
+  {
+    "code": "08258",
+    "nameUk": "Бірюзовий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#4D9F9B",
+    "symbol": "◆"
+  },
+  {
+    "code": "08265",
+    "nameUk": "Блакитний прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#3F8CAE",
+    "symbol": "◇"
   },
   {
     "code": "08273",
-    "nameUk": "Ніжно-рожевий перламутр",
-    "finish": "LUSTRE",
-    "hex": "#F8BBD0",
+    "nameUk": "Сірий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#BCA3A8",
     "symbol": "ღ"
   },
   {
     "code": "08275",
-    "nameUk": "Рожевий перламутр сакура",
-    "finish": "LUSTRE",
-    "hex": "#F48FB1",
+    "nameUk": "Малиновий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#B78391",
     "symbol": "◆"
   },
   {
-    "code": "08285",
-    "nameUk": "Перламутровий персиковий",
-    "finish": "LUSTRE",
-    "hex": "#FFCCBC",
-    "symbol": "◇"
+    "code": "08277",
+    "nameUk": "Малиновий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#B3758E",
+    "symbol": "○"
+  },
+  {
+    "code": "08283",
+    "nameUk": "Жовтий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#A8B678",
+    "symbol": "♦"
+  },
+  {
+    "code": "08286",
+    "nameUk": "Жовтий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#B3BB68",
+    "symbol": "◐"
+  },
+  {
+    "code": "08288",
+    "nameUk": "Помаранчевий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#BAAA90",
+    "symbol": "◑"
+  },
+  {
+    "code": "08289",
+    "nameUk": "Помаранчевий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#BBA278",
+    "symbol": "◒"
   },
   {
     "code": "08298",
-    "nameUk": "Кремовий хамелеон",
-    "finish": "LUSTRE",
-    "hex": "#FFF3E0",
+    "nameUk": "Малиновий прозорий вогник, фарбований",
+    "finish": "SILVER_LINED",
+    "hex": "#9E5468",
     "symbol": "❧"
   },
   {
-    "code": "08349",
-    "nameUk": "Перламутровий ванільний опал",
+    "code": "08318",
+    "nameUk": "Кораловий перламутровий",
     "finish": "LUSTRE",
-    "hex": "#FFF9C4",
+    "hex": "#C09171",
+    "symbol": "¤"
+  },
+  {
+    "code": "08328",
+    "nameUk": "Волошковий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#7D66B2",
+    "symbol": "♣"
+  },
+  {
+    "code": "08336",
+    "nameUk": "Блакитний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#3380C6",
+    "symbol": "♦"
+  },
+  {
+    "code": "08349",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#667D75",
     "symbol": "◌"
   },
   {
-    "code": "08398",
-    "nameUk": "Золотисто-кремовий перламутр",
+    "code": "08358",
+    "nameUk": "Бірюзовий перламутровий",
     "finish": "LUSTRE",
-    "hex": "#FFE082",
+    "hex": "#00AE9A",
+    "symbol": "◓"
+  },
+  {
+    "code": "08386",
+    "nameUk": "Світло-жовтий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D0DA3F",
+    "symbol": "○"
+  },
+  {
+    "code": "08392",
+    "nameUk": "Помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#DE9458",
+    "symbol": "△"
+  },
+  {
+    "code": "08398",
+    "nameUk": "Малиновий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#DC5D7A",
     "symbol": "◈"
   },
   {
+    "code": "09351",
+    "nameUk": "Червоний глухий",
+    "finish": "OPAQUE",
+    "hex": "#FE6E66",
+    "symbol": "▲"
+  },
+  {
     "code": "10020",
-    "nameUk": "Світло-жовтий бурштин прозорий",
+    "nameUk": "Світло-бурштиновий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#FFE082",
+    "hex": "#CEC376",
     "symbol": "☼"
   },
   {
-    "code": "10030",
-    "nameUk": "Бурштиновий світлий топаз",
-    "finish": "TRANSPARENT",
-    "hex": "#FFD54F",
-    "symbol": "■"
-  },
-  {
     "code": "10050",
-    "nameUk": "Світло-коричневий топаз",
+    "nameUk": "Бурштиновий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#FFCA28",
+    "hex": "#CBB14A",
     "symbol": "☼"
   },
   {
     "code": "10070",
-    "nameUk": "Бурштиновий медовий прозорий",
+    "nameUk": "Бурштиновий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#FFA000",
+    "hex": "#C6A533",
     "symbol": "☼"
   },
   {
     "code": "10090",
-    "nameUk": "Темно-бурштиновий чайний",
+    "nameUk": "Помаранчевий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#FF8F00",
+    "hex": "#A3771C",
     "symbol": "☼"
   },
   {
     "code": "10110",
-    "nameUk": "Темно-коричневий коньячний",
+    "nameUk": "Темно-коричневий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#6D4C41",
+    "hex": "#885C1F",
     "symbol": "▤"
-  },
-  {
-    "code": "10120",
-    "nameUk": "Коричневий карамельний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#5D4037",
-    "symbol": "○"
   },
   {
     "code": "10140",
-    "nameUk": "Глибокий темно-коричневий",
+    "nameUk": "Темно-коричневий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#3E2723",
+    "hex": "#483421",
     "symbol": "▥"
   },
   {
-    "code": "11020",
-    "nameUk": "Світло-топазовий райдужний",
-    "finish": "IRIS",
-    "hex": "#FFE082",
-    "symbol": "◈"
-  },
-  {
-    "code": "11030",
-    "nameUk": "Золотисто-топазовий ірис",
-    "finish": "IRIS",
-    "hex": "#FFD54F",
-    "symbol": "✚"
+    "code": "10705",
+    "nameUk": "Бурштиновий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#A59D58",
+    "symbol": "▽"
   },
   {
     "code": "11050",
-    "nameUk": "Медовий райдужний ірис",
+    "nameUk": "Бурштиновий бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#FFCA28",
+    "hex": "#C1AB59",
     "symbol": "✖"
   },
   {
-    "code": "11070",
-    "nameUk": "Бурштиновий бензиновий ірис",
-    "finish": "IRIS",
-    "hex": "#FFB300",
-    "symbol": "★"
-  },
-  {
-    "code": "11090",
-    "nameUk": "Темно-бурштиновий ірис",
-    "finish": "IRIS",
-    "hex": "#FF8F00",
-    "symbol": "☆"
-  },
-  {
-    "code": "11110",
-    "nameUk": "Коньячний бензиновий ірис",
-    "finish": "IRIS",
-    "hex": "#795548",
-    "symbol": "✪"
-  },
-  {
-    "code": "11120",
-    "nameUk": "Карамельний бензиновий ірис",
-    "finish": "IRIS",
-    "hex": "#6D4C41",
-    "symbol": "❂"
-  },
-  {
-    "code": "11140",
-    "nameUk": "Шоколадний бензиновий ірис",
-    "finish": "IRIS",
-    "hex": "#4E342E",
-    "symbol": "❃"
-  },
-  {
-    "code": "13300",
-    "nameUk": "Світло-коричневий карамельний",
-    "finish": "OPAQUE",
-    "hex": "#8D6E63",
-    "symbol": "▦"
-  },
-  {
-    "code": "13400",
-    "nameUk": "Коричневий коричний глухий",
-    "finish": "OPAQUE",
-    "hex": "#795548",
-    "symbol": "♦"
-  },
-  {
-    "code": "13500",
-    "nameUk": "Теплий коричневий горіх глухий",
-    "finish": "OPAQUE",
-    "hex": "#6D4C41",
-    "symbol": "♠"
-  },
-  {
     "code": "13600",
-    "nameUk": "Шоколадний коричневий глухий",
+    "nameUk": "Коричневий глухий",
     "finish": "OPAQUE",
-    "hex": "#4E342E",
+    "hex": "#934B28",
     "symbol": "▰"
   },
   {
-    "code": "13700",
-    "nameUk": "Гіркий шоколад темний глухий",
+    "code": "13780",
+    "nameUk": "Темно-червоний глухий",
     "finish": "OPAQUE",
-    "hex": "#3E2723",
-    "symbol": "■"
+    "hex": "#5E4039",
+    "symbol": "▲"
   },
   {
-    "code": "13710",
-    "nameUk": "Кавовий мокко глухий",
-    "finish": "OPAQUE",
-    "hex": "#5D4037",
-    "symbol": "▰"
-  },
-  {
-    "code": "13730",
-    "nameUk": "Кава з молоком глухий",
-    "finish": "OPAQUE",
-    "hex": "#795548",
-    "symbol": "☼"
-  },
-  {
-    "code": "13750",
-    "nameUk": "Темно-кавовий еспресо глухий",
-    "finish": "OPAQUE",
-    "hex": "#3E2723",
-    "symbol": "☽"
-  },
-  {
-    "code": "13810",
-    "nameUk": "Теракотовий коричневий",
-    "finish": "OPAQUE",
-    "hex": "#A1887F",
-    "symbol": "▱"
-  },
-  {
-    "code": "13830",
-    "nameUk": "Світла теракота глухий",
-    "finish": "OPAQUE",
-    "hex": "#BCAAA4",
-    "symbol": "❀"
-  },
-  {
-    "code": "13850",
-    "nameUk": "Насичена теракота глухий",
-    "finish": "OPAQUE",
-    "hex": "#8D6E63",
-    "symbol": "▰"
-  },
-  {
-    "code": "16020",
-    "nameUk": "Світло-бурштиновий матовий",
-    "finish": "MATTE",
-    "hex": "#FFE082",
-    "symbol": "▱"
-  },
-  {
-    "code": "16030",
-    "nameUk": "Топазовий матовий сатин",
-    "finish": "MATTE",
-    "hex": "#FFD54F",
-    "symbol": "▦"
+    "code": "14600",
+    "nameUk": "Червоний бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#97595D",
+    "symbol": "⬡"
   },
   {
     "code": "16050",
-    "nameUk": "Медовий матовий сатин",
-    "finish": "MATTE",
-    "hex": "#FFCA28",
+    "nameUk": "Бурштиновий прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#B8A45C",
     "symbol": "▤"
   },
   {
-    "code": "16070",
-    "nameUk": "Бурштиновий матовий",
-    "finish": "MATTE",
-    "hex": "#FFA000",
-    "symbol": "▥"
-  },
-  {
-    "code": "16090",
-    "nameUk": "Чайний матовий сатин",
-    "finish": "MATTE",
-    "hex": "#FF8F00",
-    "symbol": "◽"
-  },
-  {
-    "code": "16110",
-    "nameUk": "Коньячний матовий сатин",
-    "finish": "MATTE",
-    "hex": "#6D4C41",
-    "symbol": "◾"
-  },
-  {
-    "code": "16120",
-    "nameUk": "Карамельний матовий сатин",
-    "finish": "MATTE",
-    "hex": "#5D4037",
-    "symbol": "▷"
-  },
-  {
-    "code": "16140",
-    "nameUk": "Темно-шоколадний матовий",
-    "finish": "MATTE",
-    "hex": "#3E2723",
-    "symbol": "▶"
+    "code": "16218",
+    "nameUk": "Білий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#EDE3D1",
+    "symbol": "¤"
   },
   {
     "code": "16228",
-    "nameUk": "Бежево-бурштиновий сатин",
-    "finish": "MATTE",
-    "hex": "#D7CCC8",
+    "nameUk": "Світло-фіолетовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#DAD0EB",
     "symbol": "◁"
   },
   {
+    "code": "16236",
+    "nameUk": "Світло-блакитний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#BDE1FC",
+    "symbol": "♣"
+  },
+  {
+    "code": "16249",
+    "nameUk": "Світло-сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#C9D8D8",
+    "symbol": "♦"
+  },
+  {
+    "code": "16258",
+    "nameUk": "Світло-бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#B6F0ED",
+    "symbol": "◑"
+  },
+  {
+    "code": "16286",
+    "nameUk": "Світло-салатовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#E6F8B3",
+    "symbol": "◓"
+  },
+  {
+    "code": "16292",
+    "nameUk": "Світло-помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#F8E6B9",
+    "symbol": "○"
+  },
+  {
+    "code": "16298",
+    "nameUk": "Світло-рожевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#F9D1D9",
+    "symbol": "△"
+  },
+  {
+    "code": "16325",
+    "nameUk": "Малиновий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#C3649A",
+    "symbol": "○"
+  },
+  {
     "code": "16328",
-    "nameUk": "Світло-коричневий матовий",
-    "finish": "MATTE",
-    "hex": "#A1887F",
+    "nameUk": "Фіолетовий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#8E67A8",
     "symbol": "◀"
   },
   {
+    "code": "16336",
+    "nameUk": "Блакитний глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#418EC6",
+    "symbol": "■"
+  },
+  {
+    "code": "16356",
+    "nameUk": "Смарагдовий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#67BC98",
+    "symbol": "□"
+  },
+  {
+    "code": "16358",
+    "nameUk": "Бірюзовий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#38B4A8",
+    "symbol": "◆"
+  },
+  {
+    "code": "16365",
+    "nameUk": "Блакитний глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#2494CB",
+    "symbol": "△"
+  },
+  {
+    "code": "16383",
+    "nameUk": "Світло-бурштиновий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#E1DC36",
+    "symbol": "◑"
+  },
+  {
+    "code": "16386",
+    "nameUk": "Світло-бурштиновий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#E9E33E",
+    "symbol": "◒"
+  },
+  {
+    "code": "16389",
+    "nameUk": "Світло-помаранчевий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#F2AE54",
+    "symbol": "◓"
+  },
+  {
     "code": "16398",
-    "nameUk": "Темно-коричневий матовий",
-    "finish": "MATTE",
-    "hex": "#4E342E",
+    "nameUk": "Рожевий глухий, сатиновий «сфінкс», фарбований",
+    "finish": "OPAQUE",
+    "hex": "#EA6C8D",
     "symbol": "▿"
   },
   {
+    "code": "16918",
+    "nameUk": "Світло-помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#EDB480",
+    "symbol": "□"
+  },
+  {
+    "code": "16928",
+    "nameUk": "Фіолетовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#AD7CDD",
+    "symbol": "♠"
+  },
+  {
+    "code": "16936",
+    "nameUk": "Блакитний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#60B2FA",
+    "symbol": "♥"
+  },
+  {
+    "code": "16949",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#8B9786",
+    "symbol": "◐"
+  },
+  {
+    "code": "16958",
+    "nameUk": "Світло-бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#05D8C4",
+    "symbol": "◒"
+  },
+  {
+    "code": "16986",
+    "nameUk": "Світло-жовтий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#F8FC4D",
+    "symbol": "●"
+  },
+  {
+    "code": "16992",
+    "nameUk": "Світло-помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#FEC173",
+    "symbol": "▲"
+  },
+  {
+    "code": "16998",
+    "nameUk": "Рожевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#FF7B9C",
+    "symbol": "■"
+  },
+  {
     "code": "17020",
-    "nameUk": "Світлий медовий вогник",
+    "nameUk": "Бурштиновий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#FFE082",
+    "hex": "#B3AA66",
     "symbol": "☆"
   },
   {
     "code": "17050",
-    "nameUk": "Срібний вогник кришталевий",
+    "nameUk": "Бурштиновий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#E0E0E0",
+    "hex": "#B39D43",
     "symbol": "☆"
   },
   {
+    "code": "17059",
+    "nameUk": "Бурштиновий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#A79753",
+    "symbol": "♠"
+  },
+  {
     "code": "17070",
-    "nameUk": "Золотий вогник бурштиновий",
+    "nameUk": "Коричневий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#FFD700",
+    "hex": "#B18E2B",
     "symbol": "✷"
   },
   {
     "code": "17090",
-    "nameUk": "Мідний вогник насичений",
+    "nameUk": "Коричневий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#FFB300",
+    "hex": "#916F2A",
     "symbol": "✴"
   },
   {
     "code": "17110",
-    "nameUk": "Бронзовий вогник коньячний",
+    "nameUk": "Темно-коричневий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#8D6E63",
+    "hex": "#735326",
     "symbol": "✵"
   },
   {
-    "code": "17120",
-    "nameUk": "Вогник теплий бурштин",
-    "finish": "SILVER_LINED",
-    "hex": "#FF9800",
-    "symbol": "✧"
-  },
-  {
     "code": "17140",
-    "nameUk": "Шоколадний вогник темний",
+    "nameUk": "Темно-коричневий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#5D4037",
+    "hex": "#4B3324",
     "symbol": "✸"
   },
   {
-    "code": "17180",
-    "nameUk": "Глибокий коньячний вогник",
+    "code": "17218",
+    "nameUk": "Бежевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#C7BBA5",
+    "symbol": "◒"
+  },
+  {
+    "code": "17228",
+    "nameUk": "Фіолетовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#B0A1C7",
+    "symbol": "●"
+  },
+  {
+    "code": "17236",
+    "nameUk": "Блакитний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#8DB5D9",
+    "symbol": "▲"
+  },
+  {
+    "code": "17249",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#99ACAD",
+    "symbol": "■"
+  },
+  {
+    "code": "17258",
+    "nameUk": "Світло-бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#7AC9C2",
+    "symbol": "☆"
+  },
+  {
+    "code": "17286",
+    "nameUk": "Світло-салатовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#C0D891",
+    "symbol": "⬢"
+  },
+  {
+    "code": "17292",
+    "nameUk": "Світло-помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#DDC599",
+    "symbol": "◇"
+  },
+  {
+    "code": "17298",
+    "nameUk": "Світло-червоний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#E1A5AF",
+    "symbol": "▽"
+  },
+  {
+    "code": "17325",
+    "nameUk": "Малиновий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#9C4D7F",
+    "symbol": "☆"
+  },
+  {
+    "code": "17328",
+    "nameUk": "Фіолетовий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#6D4D93",
+    "symbol": "⬡"
+  },
+  {
+    "code": "17336",
+    "nameUk": "Блакитний перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#2371A9",
+    "symbol": "◈"
+  },
+  {
+    "code": "17356",
+    "nameUk": "Смарагдовий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#28A375",
+    "symbol": "¤"
+  },
+  {
+    "code": "17358",
+    "nameUk": "Бірюзовий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#18968A",
+    "symbol": "♠"
+  },
+  {
+    "code": "17365",
+    "nameUk": "Блакитний перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#1572A9",
+    "symbol": "⬢"
+  },
+  {
+    "code": "17383",
+    "nameUk": "Бурштиновий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#C1B925",
+    "symbol": "◇"
+  },
+  {
+    "code": "17386",
+    "nameUk": "Світло-жовтий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#C3C325",
+    "symbol": "▼"
+  },
+  {
+    "code": "17389",
+    "nameUk": "Світло-коричневий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#D5874D",
+    "symbol": "▽"
+  },
+  {
+    "code": "17398",
+    "nameUk": "Малиновий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#CE5775",
+    "symbol": "★"
+  },
+  {
+    "code": "17705",
+    "nameUk": "Бурштиновий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#4E342E",
-    "symbol": "✶"
+    "hex": "#7B7940",
+    "symbol": "◈"
   },
   {
-    "code": "18102",
-    "nameUk": "Коричневий металік",
-    "finish": "METALLIC",
-    "hex": "#6D4C41",
-    "symbol": "⬟"
-  },
-  {
-    "code": "18112",
-    "nameUk": "Темно-коричневий металік",
-    "finish": "METALLIC",
-    "hex": "#4E342E",
-    "symbol": "✸"
-  },
-  {
-    "code": "18131",
-    "nameUk": "Бронзовий перламутр",
+    "code": "17918",
+    "nameUk": "Кораловий перламутровий",
     "finish": "LUSTRE",
-    "hex": "#A1887F",
-    "symbol": "♦"
+    "hex": "#C4926F",
+    "symbol": "◓"
   },
   {
-    "code": "18181",
-    "nameUk": "Темно-бронзовий перламутр",
+    "code": "17928",
+    "nameUk": "Фіолетовий перламутровий",
     "finish": "LUSTRE",
-    "hex": "#6D4C41",
-    "symbol": "❄"
+    "hex": "#876FB7",
+    "symbol": "○"
   },
   {
-    "code": "18210",
-    "nameUk": "Мідно-коричневий глянець",
+    "code": "17936",
+    "nameUk": "Блакитний перламутровий",
     "finish": "LUSTRE",
-    "hex": "#8D6E63",
-    "symbol": "✚"
+    "hex": "#3C86CA",
+    "symbol": "△"
   },
   {
-    "code": "18230",
-    "nameUk": "Золотисто-коричневий перламутр",
+    "code": "17949",
+    "nameUk": "Сірий перламутровий",
     "finish": "LUSTRE",
-    "hex": "#BCAAA4",
-    "symbol": "■"
+    "hex": "#65786D",
+    "symbol": "□"
   },
   {
-    "code": "18380",
-    "nameUk": "Перламутровий коньяк",
+    "code": "17958",
+    "nameUk": "Бірюзовий перламутровий",
     "finish": "LUSTRE",
-    "hex": "#795548",
-    "symbol": "▲"
+    "hex": "#06B6A4",
+    "symbol": "⬡"
   },
   {
-    "code": "18583",
-    "nameUk": "Коричневий райдужний металік",
-    "finish": "METALLIC",
-    "hex": "#5D4037",
-    "symbol": "▼"
-  },
-  {
-    "code": "20010",
-    "nameUk": "Світло-сірий димчастий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#B0BEC5",
-    "symbol": "▫"
-  },
-  {
-    "code": "20020",
-    "nameUk": "Димчастий кварц світлий",
-    "finish": "TRANSPARENT",
-    "hex": "#90A4AE",
-    "symbol": "■"
-  },
-  {
-    "code": "20030",
-    "nameUk": "Світло-графітовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#9E9E9E",
-    "symbol": "▲"
-  },
-  {
-    "code": "20040",
-    "nameUk": "Середньо-сірий димчастий",
-    "finish": "TRANSPARENT",
-    "hex": "#78909C",
-    "symbol": "▼"
-  },
-  {
-    "code": "20050",
-    "nameUk": "Сірий базальтовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#616161",
+    "code": "17986",
+    "nameUk": "Світло-жовтий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D8DC24",
     "symbol": "◆"
   },
   {
-    "code": "20060",
-    "nameUk": "Сірий графітовий прозорий",
+    "code": "17992",
+    "nameUk": "Помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#E99758",
+    "symbol": "▼"
+  },
+  {
+    "code": "17998",
+    "nameUk": "Малиновий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#DE6580",
+    "symbol": "★"
+  },
+  {
+    "code": "18112",
+    "nameUk": "Бурштиновий металік",
+    "finish": "METALLIC",
+    "hex": "#7A7961",
+    "symbol": "✸"
+  },
+  {
+    "code": "18113",
+    "nameUk": "Сірий металік",
+    "finish": "METALLIC",
+    "hex": "#787E68",
+    "symbol": "□"
+  },
+  {
+    "code": "18123",
+    "nameUk": "Сірий металік",
+    "finish": "METALLIC",
+    "hex": "#797378",
+    "symbol": "◑"
+  },
+  {
+    "code": "18131",
+    "nameUk": "Сірий металік",
+    "finish": "METALLIC",
+    "hex": "#6C7E7A",
+    "symbol": "♦"
+  },
+  {
+    "code": "18134",
+    "nameUk": "Смарагдовий металік",
+    "finish": "METALLIC",
+    "hex": "#5B8476",
+    "symbol": "○"
+  },
+  {
+    "code": "18141",
+    "nameUk": "Сірий металік",
+    "finish": "METALLIC",
+    "hex": "#637362",
+    "symbol": "◆"
+  },
+  {
+    "code": "18151",
+    "nameUk": "Салатовий металік",
+    "finish": "METALLIC",
+    "hex": "#7A8A61",
+    "symbol": "▲"
+  },
+  {
+    "code": "18154",
+    "nameUk": "Салатовий металік",
+    "finish": "METALLIC",
+    "hex": "#788D64",
+    "symbol": "△"
+  },
+  {
+    "code": "18161",
+    "nameUk": "Зелений металік",
+    "finish": "METALLIC",
+    "hex": "#6B896D",
+    "symbol": "◒"
+  },
+  {
+    "code": "18165",
+    "nameUk": "Смарагдовий металік",
+    "finish": "METALLIC",
+    "hex": "#5D8775",
+    "symbol": "◓"
+  },
+  {
+    "code": "18181",
+    "nameUk": "Жовтий металік",
+    "finish": "METALLIC",
+    "hex": "#889165",
+    "symbol": "❄"
+  },
+  {
+    "code": "18184",
+    "nameUk": "Бурштиновий металік",
+    "finish": "METALLIC",
+    "hex": "#8D8465",
+    "symbol": "♥"
+  },
+  {
+    "code": "18191",
+    "nameUk": "Кораловий металік",
+    "finish": "METALLIC",
+    "hex": "#8F746B",
+    "symbol": "♦"
+  },
+  {
+    "code": "18192",
+    "nameUk": "Сірий металік",
+    "finish": "METALLIC",
+    "hex": "#877A74",
+    "symbol": "◐"
+  },
+  {
+    "code": "18503",
+    "nameUk": "Салатовий металік",
+    "finish": "METALLIC",
+    "hex": "#B1B999",
+    "symbol": "♥"
+  },
+  {
+    "code": "18528",
+    "nameUk": "Фіолетовий металік",
+    "finish": "METALLIC",
+    "hex": "#7B6991",
+    "symbol": "○"
+  },
+  {
+    "code": "18536",
+    "nameUk": "Бірюзовий металік",
+    "finish": "METALLIC",
+    "hex": "#6099A2",
+    "symbol": "△"
+  },
+  {
+    "code": "18542",
+    "nameUk": "Сірий металік",
+    "finish": "METALLIC",
+    "hex": "#8F9D96",
+    "symbol": "◆"
+  },
+  {
+    "code": "18549",
+    "nameUk": "Сірий металік",
+    "finish": "METALLIC",
+    "hex": "#899388",
+    "symbol": "◇"
+  },
+  {
+    "code": "18556",
+    "nameUk": "Смарагдовий металік",
+    "finish": "METALLIC",
+    "hex": "#7BB698",
+    "symbol": "■"
+  },
+  {
+    "code": "18558",
+    "nameUk": "Смарагдовий металік",
+    "finish": "METALLIC",
+    "hex": "#6DB2A2",
+    "symbol": "□"
+  },
+  {
+    "code": "18565",
+    "nameUk": "Бірюзовий металік",
+    "finish": "METALLIC",
+    "hex": "#5496A5",
+    "symbol": "▲"
+  },
+  {
+    "code": "18581",
+    "nameUk": "Помаранчевий металік",
+    "finish": "METALLIC",
+    "hex": "#C4AD6E",
+    "symbol": "◐"
+  },
+  {
+    "code": "18583",
+    "nameUk": "Помаранчевий металік",
+    "finish": "METALLIC",
+    "hex": "#C3A57A",
+    "symbol": "▼"
+  },
+  {
+    "code": "18586",
+    "nameUk": "Жовтий металік",
+    "finish": "METALLIC",
+    "hex": "#B7B96D",
+    "symbol": "♦"
+  },
+  {
+    "code": "18589",
+    "nameUk": "Кораловий металік",
+    "finish": "METALLIC",
+    "hex": "#C0A08F",
+    "symbol": "◒"
+  },
+  {
+    "code": "18595",
+    "nameUk": "Малиновий металік",
+    "finish": "METALLIC",
+    "hex": "#AF798D",
+    "symbol": "●"
+  },
+  {
+    "code": "18598",
+    "nameUk": "Червоний металік",
+    "finish": "METALLIC",
+    "hex": "#C2838C",
+    "symbol": "◓"
+  },
+  {
+    "code": "18600",
+    "nameUk": "Червоний глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#865D56",
+    "symbol": "◓"
+  },
+  {
+    "code": "18601",
+    "nameUk": "Коричневий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#795142",
+    "symbol": "¤"
+  },
+  {
+    "code": "19102",
+    "nameUk": "Темно-коричневий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#5E4C29",
+    "symbol": "▽"
+  },
+  {
+    "code": "19135",
+    "nameUk": "Темно-сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#38463F",
+    "symbol": "★"
+  },
+  {
+    "code": "19155",
+    "nameUk": "Темно-оливковий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#45563E",
+    "symbol": "☆"
+  },
+  {
+    "code": "19195",
+    "nameUk": "Темно-сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#50443C",
+    "symbol": "⬡"
+  },
+  {
+    "code": "20010",
+    "nameUk": "Сірий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#78909C",
+    "hex": "#8B838A",
+    "symbol": "▫"
+  },
+  {
+    "code": "20060",
+    "nameUk": "Сірий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#705862",
     "symbol": "▪"
   },
   {
     "code": "20080",
-    "nameUk": "Темно-сірий смоляний прозорий",
+    "nameUk": "Темно-малиновий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#455A64",
+    "hex": "#573D4E",
     "symbol": "▪"
   },
   {
-    "code": "20090",
-    "nameUk": "Антрацитовий темний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#37474F",
-    "symbol": "◌"
-  },
-  {
-    "code": "21010",
-    "nameUk": "Світло-сірий райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#B0BEC5",
-    "symbol": "◈"
-  },
-  {
-    "code": "21030",
-    "nameUk": "Сріблясто-сірий райдужний",
-    "finish": "IRIS",
-    "hex": "#90A4AE",
-    "symbol": "✚"
-  },
-  {
     "code": "21060",
-    "nameUk": "Графітовий райдужний ірис",
+    "nameUk": "Сірий бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#546E7A",
+    "hex": "#7F666A",
     "symbol": "✖"
   },
   {
-    "code": "21080",
-    "nameUk": "Антрацит райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#37474F",
-    "symbol": "★"
-  },
-  {
     "code": "23020",
-    "nameUk": "Світло-сірий сталевий глухий",
+    "nameUk": "Сірий глухий",
     "finish": "OPAQUE",
-    "hex": "#CFD8DC",
+    "hex": "#948790",
     "symbol": "◽"
   },
   {
     "code": "23040",
-    "nameUk": "Середньо-сірий асфальтовий",
+    "nameUk": "Сірий глухий",
     "finish": "OPAQUE",
-    "hex": "#90A4AE",
+    "hex": "#70656B",
     "symbol": "◾"
   },
   {
-    "code": "23060",
-    "nameUk": "Темно-сірий мокрий асфальт",
+    "code": "23300",
+    "nameUk": "Чорний глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#607D8B",
-    "symbol": "❂"
-  },
-  {
-    "code": "23080",
-    "nameUk": "Глибокий вугільний глухий",
-    "finish": "OPAQUE",
-    "hex": "#455A64",
-    "symbol": "❃"
+    "hex": "#1D2822",
+    "symbol": "◇"
   },
   {
     "code": "23980",
-    "nameUk": "Чорний смоляний глухий",
+    "nameUk": "Чорний глухий",
     "finish": "OPAQUE",
-    "hex": "#121212",
+    "hex": "#1E2C2F",
     "symbol": "▤"
   },
   {
-    "code": "23980M",
-    "nameUk": "Чорний матовий оксамит",
-    "finish": "MATTE",
-    "hex": "#1A1A1A",
-    "symbol": "♦"
-  },
-  {
-    "code": "24010",
-    "nameUk": "Світло-сріблястий напівпрозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#D6DBDF",
-    "symbol": "♠"
-  },
-  {
-    "code": "24040",
-    "nameUk": "Сталевий сірий опал",
-    "finish": "OPAQUE",
-    "hex": "#B2BABB",
-    "symbol": "⬟"
-  },
-  {
-    "code": "24080",
-    "nameUk": "Темний титановий глухий",
-    "finish": "OPAQUE",
-    "hex": "#566573",
+    "code": "24020",
+    "nameUk": "Сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#998B9C",
     "symbol": "⬢"
   },
   {
-    "code": "26010",
-    "nameUk": "Світло-сірий матовий сатин",
+    "code": "24300",
+    "nameUk": "Темно-сірий матовий, зі смужками",
     "finish": "MATTE",
-    "hex": "#CFD8DC",
-    "symbol": "⬡"
-  },
-  {
-    "code": "26020",
-    "nameUk": "Сталевий матовий шовк",
-    "finish": "MATTE",
-    "hex": "#B0BEC5",
-    "symbol": "☼"
-  },
-  {
-    "code": "26040",
-    "nameUk": "Середньо-сірий матовий",
-    "finish": "MATTE",
-    "hex": "#90A4AE",
-    "symbol": "☽"
+    "hex": "#47565E",
+    "symbol": "□"
   },
   {
     "code": "26060",
-    "nameUk": "Графітовий матовий сатин",
-    "finish": "MATTE",
-    "hex": "#78909C",
+    "nameUk": "Сірий прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#76666B",
     "symbol": "✿"
   },
   {
-    "code": "26080",
-    "nameUk": "Темно-сірий матовий графіт",
-    "finish": "MATTE",
-    "hex": "#455A64",
-    "symbol": "❀"
-  },
-  {
     "code": "27010",
-    "nameUk": "Сріблясто-сірий вогник",
+    "nameUk": "Сірий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#CFD8DC",
+    "hex": "#7D6C71",
     "symbol": "☆"
   },
   {
-    "code": "27020",
-    "nameUk": "Світло-сталевий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#B0BEC5",
-    "symbol": "▱"
-  },
-  {
-    "code": "27030",
-    "nameUk": "Срібний вогник холодний",
-    "finish": "SILVER_LINED",
-    "hex": "#ECEFF1",
-    "symbol": "▦"
-  },
-  {
-    "code": "27040",
-    "nameUk": "Середньо-сталевий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#90A4AE",
-    "symbol": "▤"
-  },
-  {
     "code": "27060",
-    "nameUk": "Графітовий вогник антрацит",
+    "nameUk": "Темно-сірий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#78909C",
+    "hex": "#5A434A",
     "symbol": "★"
   },
   {
+    "code": "27069",
+    "nameUk": "Темно-сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#655455",
+    "symbol": "♣"
+  },
+  {
     "code": "27080",
-    "nameUk": "Темно-сірий вогник чорне срібло",
+    "nameUk": "Чорний прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#455A64",
+    "hex": "#3C2B37",
     "symbol": "✪"
   },
   {
-    "code": "27100",
-    "nameUk": "Вогник темний гематит",
-    "finish": "SILVER_LINED",
-    "hex": "#37474F",
-    "symbol": "◾"
+    "code": "28020",
+    "nameUk": "Сірий глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#877D87",
+    "symbol": "●"
   },
   {
-    "code": "28102",
-    "nameUk": "Графітовий гематитовий металік",
-    "finish": "METALLIC",
-    "hex": "#37474F",
-    "symbol": "⬢"
-  },
-  {
-    "code": "28103",
-    "nameUk": "Сталевий світлий металік",
-    "finish": "METALLIC",
-    "hex": "#78909C",
-    "symbol": "▶"
-  },
-  {
-    "code": "28131",
-    "nameUk": "Сріблястий перламутр",
+    "code": "28918",
+    "nameUk": "Темно-сірий перламутровий",
     "finish": "LUSTRE",
-    "hex": "#CFD8DC",
-    "symbol": "◁"
-  },
-  {
-    "code": "28181",
-    "nameUk": "Графітовий перламутр",
-    "finish": "LUSTRE",
-    "hex": "#546E7A",
-    "symbol": "◀"
-  },
-  {
-    "code": "28989",
-    "nameUk": "Чорний бензиновий металік",
-    "finish": "METALLIC",
-    "hex": "#212121",
-    "symbol": "▿"
-  },
-  {
-    "code": "30010",
-    "nameUk": "Кришталево-блакитний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#BBDEFB",
-    "symbol": "■"
-  },
-  {
-    "code": "30020",
-    "nameUk": "Світло-небесний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#90CAF9",
-    "symbol": "■"
-  },
-  {
-    "code": "30030",
-    "nameUk": "Світло-волошковий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#64B5F6",
+    "hex": "#4F5E52",
     "symbol": "◇"
   },
   {
-    "code": "30040",
-    "nameUk": "Синій прозорий аква",
-    "finish": "TRANSPARENT",
-    "hex": "#42A5F5",
+    "code": "28928",
+    "nameUk": "Темно-сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#3B4951",
     "symbol": "▼"
   },
   {
-    "code": "30050",
-    "nameUk": "Волошковий синій прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#2196F3",
+    "code": "28936",
+    "nameUk": "Темно-бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#2E5159",
+    "symbol": "▽"
+  },
+  {
+    "code": "28949",
+    "nameUk": "Темно-сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#3A4F4A",
+    "symbol": "★"
+  },
+  {
+    "code": "28958",
+    "nameUk": "Темно-бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#29504A",
+    "symbol": "☆"
+  },
+  {
+    "code": "28986",
+    "nameUk": "Зелений перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#445B45",
+    "symbol": "⬡"
+  },
+  {
+    "code": "28992",
+    "nameUk": "Темно-сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#3C4F46",
+    "symbol": "⬢"
+  },
+  {
+    "code": "28998",
+    "nameUk": "Темно-сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#38403E",
     "symbol": "◈"
   },
   {
-    "code": "30060",
-    "nameUk": "Насичений сапфіровий прозорий",
+    "code": "30030",
+    "nameUk": "Синій прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#1E88E5",
+    "hex": "#4663A7",
     "symbol": "◇"
   },
   {
-    "code": "30070",
-    "nameUk": "Королівський синій прозорий",
+    "code": "30050",
+    "nameUk": "Синій прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#1976D2",
-    "symbol": "○"
+    "hex": "#37539D",
+    "symbol": "◈"
   },
   {
     "code": "30080",
-    "nameUk": "Темно-синій сапфір прозорий",
+    "nameUk": "Темно-синій прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#1565C0",
+    "hex": "#2A3C88",
     "symbol": "◆"
   },
   {
     "code": "30100",
-    "nameUk": "Глибокий кобальтовий прозорий",
+    "nameUk": "Темно-синій прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#0D47A1",
+    "hex": "#2B3478",
     "symbol": "◆"
   },
   {
     "code": "30110",
-    "nameUk": "Нічний синій прозорий індиго",
+    "nameUk": "Темно-синій прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#0A2472",
+    "hex": "#212440",
     "symbol": "✚"
-  },
-  {
-    "code": "31010",
-    "nameUk": "Світло-блакитний райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#90CAF9",
-    "symbol": "✖"
-  },
-  {
-    "code": "31030",
-    "nameUk": "Волошковий райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#42A5F5",
-    "symbol": "★"
   },
   {
     "code": "31050",
     "nameUk": "Синій бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#1976D2",
+    "hex": "#4459A0",
     "symbol": "☆"
   },
   {
-    "code": "31080",
-    "nameUk": "Темно-синій райдужний сапфір",
-    "finish": "IRIS",
-    "hex": "#1565C0",
-    "symbol": "✪"
-  },
-  {
-    "code": "31100",
-    "nameUk": "Кобальтовий райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#0D47A1",
-    "symbol": "❂"
-  },
-  {
     "code": "32010",
-    "nameUk": "Блакитний сатиновий шовк",
-    "finish": "MATTE",
-    "hex": "#90CAF9",
+    "nameUk": "Синій глухий",
+    "finish": "OPAQUE",
+    "hex": "#557FD3",
     "symbol": "❃"
   },
   {
-    "code": "32040",
-    "nameUk": "Волошковий сатиновий шовк",
-    "finish": "MATTE",
-    "hex": "#42A5F5",
-    "symbol": "♥"
-  },
-  {
-    "code": "32070",
-    "nameUk": "Темно-синій сатин",
-    "finish": "MATTE",
-    "hex": "#1976D2",
-    "symbol": "♦"
-  },
-  {
-    "code": "32100",
-    "nameUk": "Кобальтовий сатин",
-    "finish": "MATTE",
-    "hex": "#0D47A1",
-    "symbol": "♠"
-  },
-  {
-    "code": "33010",
-    "nameUk": "Блідо-блакитний глухий",
+    "code": "33000",
+    "nameUk": "Світло-синій глухий",
     "finish": "OPAQUE",
-    "hex": "#BBDEFB",
-    "symbol": "⬟"
+    "hex": "#A2C1F6",
+    "symbol": "◆"
   },
   {
     "code": "33020",
-    "nameUk": "Світло-блакитний глухий",
+    "nameUk": "Синій глухий",
     "finish": "OPAQUE",
-    "hex": "#90CAF9",
+    "hex": "#7294F1",
+    "symbol": "◇"
+  },
+  {
+    "code": "33021",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#738796",
+    "symbol": "□"
+  },
+  {
+    "code": "33023",
+    "nameUk": "Блакитний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#477295",
+    "symbol": "◆"
+  },
+  {
+    "code": "33025",
+    "nameUk": "Блакитний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#4D7C96",
     "symbol": "◇"
   },
   {
     "code": "33030",
-    "nameUk": "Пастельно-синій глухий",
+    "nameUk": "Темно-синій глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#64B5F6",
+    "hex": "#2C3271",
     "symbol": "⬡"
   },
   {
     "code": "33040",
-    "nameUk": "Синій джинсовий глухий",
+    "nameUk": "Синій глухий",
     "finish": "OPAQUE",
-    "hex": "#42A5F5",
+    "hex": "#3F5DDB",
     "symbol": "◈"
   },
   {
     "code": "33050",
-    "nameUk": "Синій волошковий насичений",
+    "nameUk": "Темно-синій глухий",
     "finish": "OPAQUE",
-    "hex": "#1976D2",
+    "hex": "#1A209D",
     "symbol": "✦"
   },
   {
     "code": "33060",
-    "nameUk": "Ультрамарин синій глухий",
+    "nameUk": "Темно-синій глухий",
     "finish": "OPAQUE",
-    "hex": "#1565C0",
+    "hex": "#141AA4",
     "symbol": "★"
   },
   {
+    "code": "33061",
+    "nameUk": "Синій перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#3C4E76",
+    "symbol": "▼"
+  },
+  {
+    "code": "33062",
+    "nameUk": "Темно-фіолетовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#483864",
+    "symbol": "■"
+  },
+  {
     "code": "33070",
-    "nameUk": "Темно-синій королівський",
+    "nameUk": "Темно-синій глухий",
     "finish": "OPAQUE",
-    "hex": "#0D47A1",
+    "hex": "#191C7A",
     "symbol": "★"
   },
   {
     "code": "33080",
-    "nameUk": "Глибокий нічний сапфір",
+    "nameUk": "Темно-синій глухий",
     "finish": "OPAQUE",
-    "hex": "#0A2472",
+    "hex": "#1D2541",
     "symbol": "✪"
   },
   {
-    "code": "33100",
-    "nameUk": "Чорнильно-синій глухий",
+    "code": "33210",
+    "nameUk": "Блакитний глухий",
     "finish": "OPAQUE",
-    "hex": "#051A44",
-    "symbol": "▱"
+    "hex": "#115FA3",
+    "symbol": "⬢"
   },
   {
-    "code": "34010",
-    "nameUk": "Блакитний фарфор напівпрозорий",
+    "code": "33220",
+    "nameUk": "Блакитний глухий",
     "finish": "OPAQUE",
-    "hex": "#A7D8DE",
-    "symbol": "▦"
+    "hex": "#1572A5",
+    "symbol": "◈"
   },
   {
-    "code": "34040",
-    "nameUk": "Синій фарфор середній",
-    "finish": "OPAQUE",
-    "hex": "#5B92E5",
-    "symbol": "▤"
+    "code": "34020",
+    "nameUk": "Синій бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#708FE3",
+    "symbol": "◈"
   },
   {
-    "code": "34070",
-    "nameUk": "Темно-синій фарфор",
-    "finish": "OPAQUE",
-    "hex": "#205493",
-    "symbol": "▥"
-  },
-  {
-    "code": "36010",
-    "nameUk": "Світло-блакитний матовий",
+    "code": "34030",
+    "nameUk": "Синій матовий, зі смужками",
     "finish": "MATTE",
-    "hex": "#90CAF9",
-    "symbol": "◽"
+    "hex": "#494F94",
+    "symbol": "■"
   },
   {
-    "code": "36030",
-    "nameUk": "Небесний матовий",
-    "finish": "MATTE",
-    "hex": "#64B5F6",
-    "symbol": "◾"
+    "code": "34210",
+    "nameUk": "Блакитний бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#2C64A3",
+    "symbol": "¤"
   },
   {
-    "code": "36040",
-    "nameUk": "Джинсовий матовий",
-    "finish": "MATTE",
-    "hex": "#42A5F5",
-    "symbol": "▷"
-  },
-  {
-    "code": "36060",
-    "nameUk": "Волошковий матовий",
-    "finish": "MATTE",
-    "hex": "#1E88E5",
-    "symbol": "▶"
-  },
-  {
-    "code": "36070",
-    "nameUk": "Темно-синій матовий",
-    "finish": "MATTE",
-    "hex": "#1565C0",
-    "symbol": "◁"
-  },
-  {
-    "code": "36100",
-    "nameUk": "Кобальтовий матовий сатин",
-    "finish": "MATTE",
-    "hex": "#0D47A1",
-    "symbol": "◀"
-  },
-  {
-    "code": "37010",
-    "nameUk": "Світло-срібний вогник крижаний",
-    "finish": "SILVER_LINED",
-    "hex": "#BBDEFB",
-    "symbol": "▿"
-  },
-  {
-    "code": "37020",
-    "nameUk": "Кришталево-синій вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#90CAF9",
-    "symbol": "▾"
+    "code": "36050",
+    "nameUk": "Синій прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#435C9E",
+    "symbol": "▲"
   },
   {
     "code": "37030",
-    "nameUk": "Світло-блакитний вогник",
+    "nameUk": "Синій прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#81D4FA",
+    "hex": "#485D93",
     "symbol": "❃"
-  },
-  {
-    "code": "37040",
-    "nameUk": "Небесно-блакитний вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#4FC3F7",
-    "symbol": "▴"
   },
   {
     "code": "37050",
-    "nameUk": "Блакитний вогник кришталевий",
+    "nameUk": "Синій прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#29B6F6",
+    "hex": "#374B8E",
     "symbol": "❃"
   },
   {
-    "code": "37060",
-    "nameUk": "Волошковий вогник сяючий",
-    "finish": "SILVER_LINED",
-    "hex": "#039BE5",
-    "symbol": "✦"
-  },
-  {
-    "code": "37070",
-    "nameUk": "Яскраво-синій вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#0288D1",
-    "symbol": "✧"
+    "code": "37059",
+    "nameUk": "Синій бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#46548D",
+    "symbol": "♥"
   },
   {
     "code": "37080",
-    "nameUk": "Синій вогник сапфіровий",
+    "nameUk": "Темно-синій прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#0288D1",
+    "hex": "#343E7F",
     "symbol": "❂"
   },
   {
     "code": "37100",
-    "nameUk": "Темно-синій вогник кобальт",
+    "nameUk": "Темно-синій прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#01579B",
+    "hex": "#2D316B",
     "symbol": "❂"
   },
   {
     "code": "37110",
-    "nameUk": "Лазурний вогник",
+    "nameUk": "Темно-синій прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#0097A7",
+    "hex": "#242746",
     "symbol": "❄"
   },
   {
-    "code": "37120",
-    "nameUk": "Морський синій вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#0277BD",
-    "symbol": "✸"
-  },
-  {
-    "code": "37130",
-    "nameUk": "Нічний волошковий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#0D47A1",
-    "symbol": "❅"
-  },
-  {
-    "code": "37140",
-    "nameUk": "Глибокий чорнильний вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#0A2472",
-    "symbol": "❄"
-  },
-  {
-    "code": "37150",
-    "nameUk": "Ультрамариновий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#1565C0",
-    "symbol": "■"
-  },
-  {
-    "code": "38010",
-    "nameUk": "Пастельно-небесний глухий",
-    "finish": "OPAQUE",
-    "hex": "#81D4FA",
-    "symbol": "■"
-  },
-  {
-    "code": "38020",
-    "nameUk": "Небесно-блакитний глухий",
-    "finish": "OPAQUE",
-    "hex": "#4FC3F7",
-    "symbol": "◇"
-  },
-  {
-    "code": "38030",
-    "nameUk": "Світло-лазурний глухий",
-    "finish": "OPAQUE",
-    "hex": "#29B6F6",
-    "symbol": "▼"
-  },
-  {
-    "code": "38040",
-    "nameUk": "Яскравий лазурний глухий",
-    "finish": "OPAQUE",
-    "hex": "#03A9F4",
-    "symbol": "◆"
-  },
-  {
-    "code": "38050",
-    "nameUk": "Яскравий блакитний глухий",
-    "finish": "OPAQUE",
-    "hex": "#29B6F6",
-    "symbol": "✧"
-  },
-  {
-    "code": "38060",
-    "nameUk": "Волошково-небесний глухий",
-    "finish": "OPAQUE",
-    "hex": "#0288D1",
-    "symbol": "○"
-  },
-  {
-    "code": "38070",
-    "nameUk": "Яскраво-синій індиго глухий",
-    "finish": "OPAQUE",
-    "hex": "#0277BD",
-    "symbol": "◌"
-  },
-  {
-    "code": "38080",
-    "nameUk": "Синій електричний глухий",
-    "finish": "OPAQUE",
-    "hex": "#01579B",
+    "code": "37325",
+    "nameUk": "Рожевий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#C79DAE",
     "symbol": "◈"
   },
   {
-    "code": "38102",
-    "nameUk": "Синій металік ірис",
-    "finish": "METALLIC",
-    "hex": "#1565C0",
-    "symbol": "✚"
+    "code": "37328",
+    "nameUk": "Бузковий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#B492AF",
+    "symbol": "¤"
   },
   {
-    "code": "38131",
-    "nameUk": "Бузковий перламутр",
+    "code": "37336",
+    "nameUk": "Блакитний перламутровий, фарбований",
     "finish": "LUSTRE",
-    "hex": "#CE93D8",
+    "hex": "#74A0BD",
+    "symbol": "♣"
+  },
+  {
+    "code": "37342",
+    "nameUk": "Сірий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#87A3A5",
+    "symbol": "◐"
+  },
+  {
+    "code": "37356",
+    "nameUk": "Смарагдовий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#78BCA5",
+    "symbol": "♥"
+  },
+  {
+    "code": "37358",
+    "nameUk": "Бірюзовий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#66B8AF",
     "symbol": "♦"
   },
   {
-    "code": "38231",
-    "nameUk": "Лавандовий перламутр",
+    "code": "37365",
+    "nameUk": "Блакитний перламутровий, фарбований",
     "finish": "LUSTRE",
-    "hex": "#BA68C8",
-    "symbol": "♥"
-  },
-  {
-    "code": "38331",
-    "nameUk": "Ніжно-блакитний перламутр",
-    "finish": "LUSTRE",
-    "hex": "#B3E5FC",
-    "symbol": "☆"
-  },
-  {
-    "code": "38341",
-    "nameUk": "Лазурний перламутр",
-    "finish": "LUSTRE",
-    "hex": "#81D4FA",
-    "symbol": "✪"
-  },
-  {
-    "code": "38351",
-    "nameUk": "Яскраво-синій перламутр",
-    "finish": "LUSTRE",
-    "hex": "#4FC3F7",
-    "symbol": "❂"
-  },
-  {
-    "code": "38602",
-    "nameUk": "Темно-синій металік",
-    "finish": "METALLIC",
-    "hex": "#0D47A1",
-    "symbol": "❃"
-  },
-  {
-    "code": "38642",
-    "nameUk": "Синьо-зелений хамелеон металік",
-    "finish": "METALLIC",
-    "hex": "#00838F",
-    "symbol": "♥"
-  },
-  {
-    "code": "40010",
-    "nameUk": "Світло-бірюзовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#80DEEA",
-    "symbol": "◈"
-  },
-  {
-    "code": "40020",
-    "nameUk": "Прозорий аквамарин",
-    "finish": "TRANSPARENT",
-    "hex": "#4DD0E1",
-    "symbol": "■"
-  },
-  {
-    "code": "40030",
-    "nameUk": "Бірюзовий морська піна",
-    "finish": "TRANSPARENT",
-    "hex": "#26C6DA",
-    "symbol": "▲"
-  },
-  {
-    "code": "40040",
-    "nameUk": "Бірюзовий морська хвиля",
-    "finish": "TRANSPARENT",
-    "hex": "#26C6DA",
-    "symbol": "◈"
-  },
-  {
-    "code": "40050",
-    "nameUk": "Насичений бірюзовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#00BCD4",
-    "symbol": "◆"
-  },
-  {
-    "code": "40060",
-    "nameUk": "Глибокий бірюзовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#00ACC1",
-    "symbol": "◈"
-  },
-  {
-    "code": "40070",
-    "nameUk": "Темна морська хвиля прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#0097A7",
-    "symbol": "○"
-  },
-  {
-    "code": "40080",
-    "nameUk": "Глибокий петроль прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#00838F",
-    "symbol": "◌"
-  },
-  {
-    "code": "41010",
-    "nameUk": "Світло-бірюзовий ірис",
-    "finish": "IRIS",
-    "hex": "#80DEEA",
-    "symbol": "◈"
-  },
-  {
-    "code": "41020",
-    "nameUk": "Аквамариновий райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#4DD0E1",
-    "symbol": "✚"
-  },
-  {
-    "code": "41040",
-    "nameUk": "Морська хвиля райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#00BCD4",
-    "symbol": "✖"
-  },
-  {
-    "code": "41060",
-    "nameUk": "Темно-бірюзовий бензиновий ірис",
-    "finish": "IRIS",
-    "hex": "#00838F",
-    "symbol": "★"
-  },
-  {
-    "code": "43010",
-    "nameUk": "Світла м'ята пастельна глухий",
-    "finish": "OPAQUE",
-    "hex": "#B2DFDB",
-    "symbol": "☆"
-  },
-  {
-    "code": "43020",
-    "nameUk": "Пастельно-м'ятний глухий",
-    "finish": "OPAQUE",
-    "hex": "#A7FFEB",
-    "symbol": "◇"
-  },
-  {
-    "code": "43030",
-    "nameUk": "М'ятний освіжаючий глухий",
-    "finish": "OPAQUE",
-    "hex": "#80CBC4",
-    "symbol": "❂"
-  },
-  {
-    "code": "43040",
-    "nameUk": "Глухий темно-м'ятний",
-    "finish": "OPAQUE",
-    "hex": "#4DB6AC",
-    "symbol": "❃"
-  },
-  {
-    "code": "46010",
-    "nameUk": "Світло-бірюзовий матовий",
-    "finish": "MATTE",
-    "hex": "#80DEEA",
-    "symbol": "♥"
-  },
-  {
-    "code": "46020",
-    "nameUk": "Аквамарин матовий сатин",
-    "finish": "MATTE",
-    "hex": "#4DD0E1",
-    "symbol": "♦"
-  },
-  {
-    "code": "46040",
-    "nameUk": "Бірюзовий матовий сатин",
-    "finish": "MATTE",
-    "hex": "#00BCD4",
+    "hex": "#7BA9C4",
     "symbol": "♠"
   },
   {
-    "code": "46060",
-    "nameUk": "Морська хвиля матовий",
-    "finish": "MATTE",
-    "hex": "#00838F",
-    "symbol": "⬟"
-  },
-  {
-    "code": "47010",
-    "nameUk": "Світло-бірюзовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#4DD0E1",
-    "symbol": "❃"
-  },
-  {
-    "code": "47020",
-    "nameUk": "Вогник морська піна",
-    "finish": "SILVER_LINED",
-    "hex": "#26C6DA",
-    "symbol": "⬡"
-  },
-  {
-    "code": "47030",
-    "nameUk": "Аквамариновий сяючий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#00E5FF",
-    "symbol": "☼"
-  },
-  {
-    "code": "47040",
-    "nameUk": "Лазурно-бірюзовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#00B0FF",
-    "symbol": "☽"
-  },
-  {
-    "code": "47050",
-    "nameUk": "Насичений бірюзовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#00BCD4",
-    "symbol": "✿"
-  },
-  {
-    "code": "47060",
-    "nameUk": "Бірюзовий вогник аквамарин",
-    "finish": "SILVER_LINED",
-    "hex": "#00BCD4",
-    "symbol": "❂"
-  },
-  {
-    "code": "47070",
-    "nameUk": "Вогник темна морська хвиля",
-    "finish": "SILVER_LINED",
-    "hex": "#0097A7",
-    "symbol": "▰"
-  },
-  {
-    "code": "47080",
-    "nameUk": "Глибокий вогник петроль",
-    "finish": "SILVER_LINED",
-    "hex": "#006064",
-    "symbol": "▱"
-  },
-  {
-    "code": "48013",
-    "nameUk": "Бірюзовий класичний глухий",
-    "finish": "OPAQUE",
-    "hex": "#00ACC1",
-    "symbol": "◈"
-  },
-  {
-    "code": "48020",
-    "nameUk": "Бірюзовий темний морський",
-    "finish": "OPAQUE",
-    "hex": "#00838F",
-    "symbol": "◈"
-  },
-  {
-    "code": "48030",
-    "nameUk": "Яскраво-бірюзовий глухий",
-    "finish": "OPAQUE",
-    "hex": "#00BCD4",
-    "symbol": "▥"
-  },
-  {
-    "code": "48040",
-    "nameUk": "Петролевий глибокий глухий",
-    "finish": "OPAQUE",
-    "hex": "#006064",
-    "symbol": "◽"
-  },
-  {
-    "code": "48102",
-    "nameUk": "Синій металік ірис",
-    "finish": "METALLIC",
-    "hex": "#1565C0",
-    "symbol": "⬡"
-  },
-  {
-    "code": "48131",
-    "nameUk": "Бірюзовий перламутр",
+    "code": "37383",
+    "nameUk": "Бежевий перламутровий, фарбований",
     "finish": "LUSTRE",
-    "hex": "#80DEEA",
-    "symbol": "▷"
+    "hex": "#CEBF91",
+    "symbol": "★"
   },
   {
-    "code": "48181",
-    "nameUk": "Темно-бірюзовий перламутр",
+    "code": "37386",
+    "nameUk": "Світло-жовтий перламутровий, фарбований",
     "finish": "LUSTRE",
-    "hex": "#0097A7",
-    "symbol": "▶"
-  },
-  {
-    "code": "50010",
-    "nameUk": "Блідо-салатовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#C8E6C9",
-    "symbol": "▼"
-  },
-  {
-    "code": "50020",
-    "nameUk": "Світло-яблучний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#A5D6A7",
-    "symbol": "■"
-  },
-  {
-    "code": "50030",
-    "nameUk": "Світло-зелений травневий",
-    "finish": "TRANSPARENT",
-    "hex": "#81C784",
-    "symbol": "▲"
-  },
-  {
-    "code": "50040",
-    "nameUk": "Весняна зелень прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#81C784",
-    "symbol": "▼"
-  },
-  {
-    "code": "50050",
-    "nameUk": "Трав'янистий зелений прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#66BB6A",
-    "symbol": "◆"
-  },
-  {
-    "code": "50060",
-    "nameUk": "Світло-зелений трав'яний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#81C784",
-    "symbol": "✚"
-  },
-  {
-    "code": "50070",
-    "nameUk": "Яскраво-зелений смарагд",
-    "finish": "TRANSPARENT",
-    "hex": "#4CAF50",
-    "symbol": "○"
-  },
-  {
-    "code": "50080",
-    "nameUk": "Зелений смарагдовий світлий",
-    "finish": "TRANSPARENT",
-    "hex": "#4CAF50",
-    "symbol": "◌"
-  },
-  {
-    "code": "50090",
-    "nameUk": "Лісовий зелений прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#388E3C",
-    "symbol": "◈"
-  },
-  {
-    "code": "50100",
-    "nameUk": "Зелений смарагд прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#4CAF50",
-    "symbol": "✚"
-  },
-  {
-    "code": "50110",
-    "nameUk": "Глибокий зелений ялиновий",
-    "finish": "TRANSPARENT",
-    "hex": "#2E7D32",
-    "symbol": "✖"
-  },
-  {
-    "code": "50120",
-    "nameUk": "Темно-зелений лісовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#2E7D32",
-    "symbol": "✖"
-  },
-  {
-    "code": "50140",
-    "nameUk": "Глибокий хвойний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#1B5E20",
+    "hex": "#CFD091",
     "symbol": "☆"
   },
   {
-    "code": "50150",
-    "nameUk": "Глибокий оливково-зелений",
+    "code": "37389",
+    "nameUk": "Кораловий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#C9AA9B",
+    "symbol": "⬡"
+  },
+  {
+    "code": "37398",
+    "nameUk": "Рожевий перламутровий, фарбований",
+    "finish": "LUSTRE",
+    "hex": "#D697A4",
+    "symbol": "⬢"
+  },
+  {
+    "code": "38020",
+    "nameUk": "Синій глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#6D87D2",
+    "symbol": "◇"
+  },
+  {
+    "code": "38210",
+    "nameUk": "Блакитний глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#316495",
+    "symbol": "▲"
+  },
+  {
+    "code": "38218",
+    "nameUk": "Бежевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#BCB29B",
+    "symbol": "▽"
+  },
+  {
+    "code": "38228",
+    "nameUk": "Волошковий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#A2A0B8",
+    "symbol": "◇"
+  },
+  {
+    "code": "38236",
+    "nameUk": "Блакитний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#81A5C7",
+    "symbol": "☆"
+  },
+  {
+    "code": "38249",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#94A6A3",
+    "symbol": "⬢"
+  },
+  {
+    "code": "38258",
+    "nameUk": "Бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#71BDB3",
+    "symbol": "¤"
+  },
+  {
+    "code": "38286",
+    "nameUk": "Світло-салатовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#B4CB94",
+    "symbol": "♣"
+  },
+  {
+    "code": "38292",
+    "nameUk": "Бежевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#C9BC98",
+    "symbol": "♦"
+  },
+  {
+    "code": "38298",
+    "nameUk": "Червоний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#CCA8AC",
+    "symbol": "◑"
+  },
+  {
+    "code": "38302",
+    "nameUk": "Білий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#D6E1D9",
+    "symbol": "▼"
+  },
+  {
+    "code": "38318",
+    "nameUk": "Сірий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#9B928C",
+    "symbol": "◈"
+  },
+  {
+    "code": "38328",
+    "nameUk": "Бузковий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#B780B0",
+    "symbol": "⬢"
+  },
+  {
+    "code": "38336",
+    "nameUk": "Блакитний матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#5B9DCE",
+    "symbol": "♣"
+  },
+  {
+    "code": "38342",
+    "nameUk": "Сірий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#8FA4B2",
+    "symbol": "¤"
+  },
+  {
+    "code": "38356",
+    "nameUk": "Смарагдовий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#5EB99A",
+    "symbol": "♥"
+  },
+  {
+    "code": "38358",
+    "nameUk": "Бірюзовий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#46B6AC",
+    "symbol": "▽"
+  },
+  {
+    "code": "38365",
+    "nameUk": "Блакитний матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#409FD0",
+    "symbol": "♠"
+  },
+  {
+    "code": "38386",
+    "nameUk": "Світло-жовтий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#DBDD77",
+    "symbol": "▽"
+  },
+  {
+    "code": "38389",
+    "nameUk": "Кораловий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#E1A78D",
+    "symbol": "★"
+  },
+  {
+    "code": "38394",
+    "nameUk": "Світло-рожевий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#E4B3C2",
+    "symbol": "☆"
+  },
+  {
+    "code": "38398",
+    "nameUk": "Рожевий матовий, фарбований",
+    "finish": "MATTE",
+    "hex": "#E484A1",
+    "symbol": "⬡"
+  },
+  {
+    "code": "38918",
+    "nameUk": "Помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#BA9579",
+    "symbol": "◆"
+  },
+  {
+    "code": "38928",
+    "nameUk": "Волошковий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#7871AB",
+    "symbol": "★"
+  },
+  {
+    "code": "38936",
+    "nameUk": "Блакитний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#5A89BE",
+    "symbol": "⬡"
+  },
+  {
+    "code": "38949",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#687F76",
+    "symbol": "◈"
+  },
+  {
+    "code": "38958",
+    "nameUk": "Бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#1FAF9D",
+    "symbol": "♠"
+  },
+  {
+    "code": "38986",
+    "nameUk": "Світло-жовтий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#C2CD60",
+    "symbol": "♥"
+  },
+  {
+    "code": "38992",
+    "nameUk": "Помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D69C65",
+    "symbol": "◐"
+  },
+  {
+    "code": "38998",
+    "nameUk": "Малиновий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#DB6D81",
+    "symbol": "▼"
+  },
+  {
+    "code": "40010",
+    "nameUk": "Сірий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#1B5E20",
+    "hex": "#546B67",
+    "symbol": "◈"
+  },
+  {
+    "code": "41010",
+    "nameUk": "Сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#5E7076",
+    "symbol": "◈"
+  },
+  {
+    "code": "43020",
+    "nameUk": "Сірий глухий",
+    "finish": "OPAQUE",
+    "hex": "#798474",
+    "symbol": "◇"
+  },
+  {
+    "code": "44020",
+    "nameUk": "Сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#7C877B",
+    "symbol": "♠"
+  },
+  {
+    "code": "46010",
+    "nameUk": "Сірий прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#587074",
+    "symbol": "♥"
+  },
+  {
+    "code": "46025",
+    "nameUk": "Пурпуровий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#7A5E81",
+    "symbol": "◑"
+  },
+  {
+    "code": "46035",
+    "nameUk": "Бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#709DA4",
+    "symbol": "◒"
+  },
+  {
+    "code": "46055",
+    "nameUk": "Смарагдовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#80ACA1",
+    "symbol": "◓"
+  },
+  {
+    "code": "46085",
+    "nameUk": "Світло-бурштиновий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#E0D4AB",
+    "symbol": "♦"
+  },
+  {
+    "code": "46088",
+    "nameUk": "Бурштиновий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#B0AC96",
+    "symbol": "◐"
+  },
+  {
+    "code": "46095",
+    "nameUk": "Світло-коричневий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#B58965",
+    "symbol": "●"
+  },
+  {
+    "code": "46102",
+    "nameUk": "Білий глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#E5EFEE",
+    "symbol": "◑"
+  },
+  {
+    "code": "46112",
+    "nameUk": "Світло-бурштиновий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#EBE7C8",
+    "symbol": "♠"
+  },
+  {
+    "code": "46113",
+    "nameUk": "Світло-салатовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#E1E7D0",
+    "symbol": "♣"
+  },
+  {
+    "code": "46205",
+    "nameUk": "Білий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#F1FDFC",
+    "symbol": "▽"
+  },
+  {
+    "code": "46316",
+    "nameUk": "Бежевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#CDC2A1",
+    "symbol": "♠"
+  },
+  {
+    "code": "46318",
+    "nameUk": "Світло-коричневий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#AE9570",
+    "symbol": "♣"
+  },
+  {
+    "code": "46326",
+    "nameUk": "Рожевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D2A4B9",
+    "symbol": "◑"
+  },
+  {
+    "code": "46381",
+    "nameUk": "Білий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D9E2CF",
+    "symbol": "¤"
+  },
+  {
+    "code": "46383",
+    "nameUk": "Світло-бурштиновий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#EAD25A",
+    "symbol": "◐"
+  },
+  {
+    "code": "46387",
+    "nameUk": "Світло-помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#DDC699",
+    "symbol": "♥"
+  },
+  {
+    "code": "46389",
+    "nameUk": "Світло-помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#F6BA83",
+    "symbol": "♦"
+  },
+  {
+    "code": "47010",
+    "nameUk": "Темно-сірий прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#4B5B57",
+    "symbol": "❃"
+  },
+  {
+    "code": "47102",
+    "nameUk": "Білий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D3E0DA",
+    "symbol": "⬢"
+  },
+  {
+    "code": "47112",
+    "nameUk": "Бежевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D7D09F",
+    "symbol": "◓"
+  },
+  {
+    "code": "47113",
+    "nameUk": "Світло-жовтий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D5D7A8",
+    "symbol": "◈"
+  },
+  {
+    "code": "47115",
+    "nameUk": "Світло-помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#D6C184",
+    "symbol": "¤"
+  },
+  {
+    "code": "47185",
+    "nameUk": "Світло-бурштиновий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#DCD798",
+    "symbol": "●"
+  },
+  {
+    "code": "48013",
+    "nameUk": "Світло-жовтий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#BEBE88",
+    "symbol": "◈"
+  },
+  {
+    "code": "48015",
+    "nameUk": "Бежевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#C7C29C",
+    "symbol": "◈"
+  },
+  {
+    "code": "48018",
+    "nameUk": "Світло-коричневий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#B29C6B",
+    "symbol": "¤"
+  },
+  {
+    "code": "48020",
+    "nameUk": "Сірий глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#707B6F",
+    "symbol": "◈"
+  },
+  {
+    "code": "48025",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#6F5C68",
+    "symbol": "♠"
+  },
+  {
+    "code": "48035",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#68878D",
+    "symbol": "♣"
+  },
+  {
+    "code": "48042",
+    "nameUk": "Жовтий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#9F9F89",
+    "symbol": "◐"
+  },
+  {
+    "code": "48049",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#627268",
+    "symbol": "◑"
+  },
+  {
+    "code": "48055",
+    "nameUk": "Бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#709491",
+    "symbol": "♥"
+  },
+  {
+    "code": "48095",
+    "nameUk": "Коричневий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#906957",
+    "symbol": "♦"
+  },
+  {
+    "code": "48102",
+    "nameUk": "Світло-сірий прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#B9C4BC",
+    "symbol": "⬡"
+  },
+  {
+    "code": "49055",
+    "nameUk": "Темно-сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#313D2E",
+    "symbol": "♦"
+  },
+  {
+    "code": "49095",
+    "nameUk": "Темно-сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#534744",
+    "symbol": "◐"
+  },
+  {
+    "code": "49102",
+    "nameUk": "Темно-сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#354C4F",
+    "symbol": "○"
+  },
+  {
+    "code": "50060",
+    "nameUk": "Темно-зелений прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#1C793C",
+    "symbol": "✚"
+  },
+  {
+    "code": "50100",
+    "nameUk": "Зелений прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#46A169",
+    "symbol": "✚"
+  },
+  {
+    "code": "50120",
+    "nameUk": "Зелений прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#228E3E",
+    "symbol": "✖"
+  },
+  {
+    "code": "50150",
+    "nameUk": "Темно-смарагдовий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#164C2D",
     "symbol": "✖"
   },
   {
     "code": "50220",
-    "nameUk": "Оливковий прозорий хакі",
+    "nameUk": "Салатовий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#689F38",
+    "hex": "#84B846",
     "symbol": "✛"
-  },
-  {
-    "code": "50230",
-    "nameUk": "Світло-оливковий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#7CB342",
-    "symbol": "❃"
-  },
-  {
-    "code": "50250",
-    "nameUk": "Оливковий золотистий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#558B2F",
-    "symbol": "♥"
-  },
-  {
-    "code": "50280",
-    "nameUk": "Оливковий болотний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#33691E",
-    "symbol": "♦"
   },
   {
     "code": "50290",
-    "nameUk": "Темно-оливковий болотний",
+    "nameUk": "Темно-зелений прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#33691E",
+    "hex": "#1D5F33",
     "symbol": "✛"
   },
   {
-    "code": "51010",
-    "nameUk": "Салатовий райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#A5D6A7",
-    "symbol": "⬟"
+    "code": "50430",
+    "nameUk": "Зелений прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#4FA43F",
+    "symbol": "♦"
   },
   {
-    "code": "51040",
-    "nameUk": "Трав'яний райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#4CAF50",
-    "symbol": "⬢"
-  },
-  {
-    "code": "51070",
-    "nameUk": "Смарагдовий бензиновий ірис",
-    "finish": "IRIS",
-    "hex": "#2E7D32",
-    "symbol": "⬡"
-  },
-  {
-    "code": "51100",
-    "nameUk": "Темно-зелений бензиновий ірис",
-    "finish": "IRIS",
-    "hex": "#1B5E20",
-    "symbol": "☼"
+    "code": "50710",
+    "nameUk": "Темно-бірюзовий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#0C8174",
+    "symbol": "◐"
   },
   {
     "code": "51120",
-    "nameUk": "Хвойний райдужний ірис",
+    "nameUk": "Зелений бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#0D5302",
+    "hex": "#288242",
     "symbol": "☽"
   },
   {
-    "code": "52010",
-    "nameUk": "Салатовий шовковий сатин",
-    "finish": "MATTE",
-    "hex": "#A5D6A7",
-    "symbol": "✿"
+    "code": "51430",
+    "nameUk": "Зелений бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#429A42",
+    "symbol": "★"
   },
   {
-    "code": "52040",
-    "nameUk": "Зелений шовковий сатин",
-    "finish": "MATTE",
-    "hex": "#4CAF50",
-    "symbol": "❀"
+    "code": "52240",
+    "nameUk": "Смарагдовий глухий",
+    "finish": "OPAQUE",
+    "hex": "#0D9E7D",
+    "symbol": "¤"
   },
   {
-    "code": "52070",
-    "nameUk": "Темно-зелений сатин",
-    "finish": "MATTE",
-    "hex": "#2E7D32",
-    "symbol": "▰"
+    "code": "52797",
+    "nameUk": "Темно-бурштиновий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#4A4223",
+    "symbol": "◇"
   },
   {
     "code": "53210",
-    "nameUk": "Зелений трав'яний глухий",
+    "nameUk": "Світло-зелений глухий",
     "finish": "OPAQUE",
-    "hex": "#388E3C",
+    "hex": "#5DCF7A",
     "symbol": "✚"
   },
   {
-    "code": "53220",
-    "nameUk": "Зелений листяний глухий",
-    "finish": "OPAQUE",
-    "hex": "#2E7D32",
-    "symbol": "▦"
-  },
-  {
     "code": "53230",
-    "nameUk": "Темно-зелений хвойний глухий",
+    "nameUk": "Зелений глухий",
     "finish": "OPAQUE",
-    "hex": "#1B5E20",
+    "hex": "#46C059",
     "symbol": "✖"
   },
   {
+    "code": "53233",
+    "nameUk": "Смарагдовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#33845E",
+    "symbol": "☆"
+  },
+  {
     "code": "53240",
-    "nameUk": "Зелений малахітовий глухий",
+    "nameUk": "Смарагдовий глухий",
     "finish": "OPAQUE",
-    "hex": "#2E7D32",
+    "hex": "#158C6D",
     "symbol": "✚"
   },
   {
     "code": "53250",
-    "nameUk": "Світло-зелений яблучний глухий",
+    "nameUk": "Смарагдовий глухий",
     "finish": "OPAQUE",
-    "hex": "#4CAF50",
+    "hex": "#30B26D",
     "symbol": "✛"
   },
   {
-    "code": "53260",
-    "nameUk": "Яскраво-зелений смарагд глухий",
-    "finish": "OPAQUE",
-    "hex": "#00897B",
-    "symbol": "◾"
-  },
-  {
     "code": "53270",
-    "nameUk": "Смарагдовий глухий",
+    "nameUk": "Темно-смарагдовий глухий",
     "finish": "OPAQUE",
-    "hex": "#00796B",
+    "hex": "#1B584D",
     "symbol": "✖"
   },
   {
-    "code": "53280",
-    "nameUk": "Темний малахіт глухий",
-    "finish": "OPAQUE",
-    "hex": "#004D40",
-    "symbol": "▶"
-  },
-  {
     "code": "53310",
-    "nameUk": "Зелений лісовий глухий",
+    "nameUk": "Світло-зелений глухий",
     "finish": "OPAQUE",
-    "hex": "#2E7D32",
+    "hex": "#8BE35E",
     "symbol": "◁"
   },
   {
     "code": "53410",
-    "nameUk": "Салатовий весняний глухий",
+    "nameUk": "Світло-зелений глухий",
     "finish": "OPAQUE",
-    "hex": "#7CB342",
+    "hex": "#A9EB89",
     "symbol": "✚"
-  },
-  {
-    "code": "53420",
-    "nameUk": "Лаймово-зелений глухий",
-    "finish": "OPAQUE",
-    "hex": "#8BC34A",
-    "symbol": "▿"
   },
   {
     "code": "53430",
-    "nameUk": "Оливковий мілітарі глухий",
+    "nameUk": "Жовтий глухий",
     "finish": "OPAQUE",
-    "hex": "#558B2F",
+    "hex": "#93B710",
     "symbol": "✖"
   },
   {
-    "code": "54210",
-    "nameUk": "Трав'яний напівпрозорий опал",
+    "code": "53800",
+    "nameUk": "Смарагдовий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#66BB6A",
-    "symbol": "▵"
-  },
-  {
-    "code": "54230",
-    "nameUk": "Хвойний опал напівпрозорий",
-    "finish": "OPAQUE",
-    "hex": "#2E7D32",
-    "symbol": "▴"
-  },
-  {
-    "code": "54410",
-    "nameUk": "Салатовий напівпрозорий опал",
-    "finish": "OPAQUE",
-    "hex": "#9CCC65",
-    "symbol": "✛"
-  },
-  {
-    "code": "56100",
-    "nameUk": "Смарагдовий матовий",
-    "finish": "MATTE",
-    "hex": "#4CAF50",
-    "symbol": "✦"
-  },
-  {
-    "code": "56110",
-    "nameUk": "Трав'яний матовий сатин",
-    "finish": "MATTE",
-    "hex": "#388E3C",
-    "symbol": "✧"
-  },
-  {
-    "code": "56120",
-    "nameUk": "Темно-зелений матовий",
-    "finish": "MATTE",
-    "hex": "#2E7D32",
-    "symbol": "✵"
-  },
-  {
-    "code": "56220",
-    "nameUk": "Оливковий матовий",
-    "finish": "MATTE",
-    "hex": "#689F38",
-    "symbol": "✶"
-  },
-  {
-    "code": "56250",
-    "nameUk": "Хакі матовий сатин",
-    "finish": "MATTE",
-    "hex": "#558B2F",
-    "symbol": "✷"
-  },
-  {
-    "code": "56290",
-    "nameUk": "Болотний матовий",
-    "finish": "MATTE",
-    "hex": "#33691E",
-    "symbol": "✸"
-  },
-  {
-    "code": "57010",
-    "nameUk": "Світло-салатовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#B9F6CA",
-    "symbol": "✹"
-  },
-  {
-    "code": "57020",
-    "nameUk": "Лаймовий вогник сяючий",
-    "finish": "SILVER_LINED",
-    "hex": "#69F0AE",
-    "symbol": "❄"
-  },
-  {
-    "code": "57030",
-    "nameUk": "Світло-зелений сяючий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#00E676",
-    "symbol": "▼"
-  },
-  {
-    "code": "57040",
-    "nameUk": "Світло-смарагдовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#00E676",
-    "symbol": "■"
-  },
-  {
-    "code": "57060",
-    "nameUk": "Смарагдовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#00E676",
-    "symbol": "❂"
-  },
-  {
-    "code": "57080",
-    "nameUk": "Трав'яний вогник світлий",
-    "finish": "SILVER_LINED",
-    "hex": "#00C853",
-    "symbol": "▼"
-  },
-  {
-    "code": "57090",
-    "nameUk": "Зелений вогник яблуко",
-    "finish": "SILVER_LINED",
-    "hex": "#43A047",
+    "hex": "#1F8355",
     "symbol": "◆"
   },
   {
-    "code": "57100",
-    "nameUk": "Трав'яний вогник насичений",
+    "code": "54250",
+    "nameUk": "Смарагдовий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#34B279",
+    "symbol": "♣"
+  },
+  {
+    "code": "56120",
+    "nameUk": "Смарагдовий прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#257F50",
+    "symbol": "✵"
+  },
+  {
+    "code": "56430",
+    "nameUk": "Зелений прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#489D54",
+    "symbol": "□"
+  },
+  {
+    "code": "57060",
+    "nameUk": "Темно-зелений прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#00C853",
+    "hex": "#22613A",
     "symbol": "❂"
   },
   {
-    "code": "57110",
-    "nameUk": "Свіжа зелень сяючий вогник",
+    "code": "57100",
+    "nameUk": "Зелений прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#43A047",
-    "symbol": "○"
+    "hex": "#489061",
+    "symbol": "❂"
+  },
+  {
+    "code": "57102",
+    "nameUk": "Світло-сірий глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#CDD8D6",
+    "symbol": "◒"
   },
   {
     "code": "57120",
-    "nameUk": "Темно-зелений хвойний вогник",
+    "nameUk": "Зелений прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#1B5E20",
+    "hex": "#2A813E",
     "symbol": "❂"
   },
   {
-    "code": "57130",
-    "nameUk": "Глибокий лісовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#1B5E20",
-    "symbol": "◈"
-  },
-  {
-    "code": "57140",
-    "nameUk": "Малахітовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#00796B",
-    "symbol": "✚"
-  },
-  {
-    "code": "57150",
-    "nameUk": "Оливковий вогник хакі",
-    "finish": "SILVER_LINED",
-    "hex": "#7CB342",
-    "symbol": "❃"
-  },
-  {
-    "code": "57220",
-    "nameUk": "Лаймовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#AEEA00",
-    "symbol": "❃"
-  },
-  {
-    "code": "57240",
-    "nameUk": "Світло-оливковий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#D4E157",
-    "symbol": "☆"
-  },
-  {
-    "code": "57250",
-    "nameUk": "Золотисто-оливковий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#C0CA33",
-    "symbol": "✪"
-  },
-  {
-    "code": "57270",
-    "nameUk": "Темно-оливковий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#558B2F",
-    "symbol": "❂"
-  },
-  {
-    "code": "58205",
-    "nameUk": "Зелений металік ірис",
-    "finish": "METALLIC",
-    "hex": "#2E7D32",
-    "symbol": "⬢"
-  },
-  {
-    "code": "58210",
-    "nameUk": "Смарагдовий металік",
-    "finish": "METALLIC",
-    "hex": "#00796B",
-    "symbol": "♥"
-  },
-  {
-    "code": "58230",
-    "nameUk": "Темно-зелений металік",
-    "finish": "METALLIC",
-    "hex": "#1B5E20",
+    "code": "57129",
+    "nameUk": "Зелений бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#397C49",
     "symbol": "♦"
   },
   {
-    "code": "58405",
-    "nameUk": "Оливковий металік",
-    "finish": "METALLIC",
-    "hex": "#558B2F",
-    "symbol": "♠"
+    "code": "57150",
+    "nameUk": "Темно-зелений прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#20432E",
+    "symbol": "❃"
   },
   {
-    "code": "58430",
-    "nameUk": "Бронзово-зелений металік",
-    "finish": "METALLIC",
-    "hex": "#33691E",
-    "symbol": "⬟"
+    "code": "57205",
+    "nameUk": "Білий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#D4E2E2",
+    "symbol": "★"
+  },
+  {
+    "code": "57206",
+    "nameUk": "Білий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#DCE8D7",
+    "symbol": "◒"
+  },
+  {
+    "code": "57220",
+    "nameUk": "Зелений прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#6DA64B",
+    "symbol": "❃"
+  },
+  {
+    "code": "57290",
+    "nameUk": "Темно-зелений прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#2C412E",
+    "symbol": "⬢"
+  },
+  {
+    "code": "57430",
+    "nameUk": "Зелений прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#488B41",
+    "symbol": "▽"
+  },
+  {
+    "code": "57710",
+    "nameUk": "Темно-смарагдовий прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#1A6456",
+    "symbol": "★"
+  },
+  {
+    "code": "57797",
+    "nameUk": "Темно-коричневий прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#463422",
+    "symbol": "☆"
+  },
+  {
+    "code": "58141",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#717373",
+    "symbol": "☆"
+  },
+  {
+    "code": "58142",
+    "nameUk": "Сірий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#6E697B",
+    "symbol": "⬡"
+  },
+  {
+    "code": "58205",
+    "nameUk": "Світло-сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#C1CDCB",
+    "symbol": "⬢"
+  },
+  {
+    "code": "58250",
+    "nameUk": "Смарагдовий глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#49A97D",
+    "symbol": "■"
+  },
+  {
+    "code": "59115",
+    "nameUk": "Темно-сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#354133",
+    "symbol": "▲"
+  },
+  {
+    "code": "59135",
+    "nameUk": "Темно-блакитний бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#253346",
+    "symbol": "△"
+  },
+  {
+    "code": "59142",
+    "nameUk": "Темно-жовтий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#565638",
+    "symbol": "◆"
+  },
+  {
+    "code": "59145",
+    "nameUk": "Темно-бурштиновий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#544E2B",
+    "symbol": "◇"
+  },
+  {
+    "code": "59148",
+    "nameUk": "Темно-жовтий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#5E6130",
+    "symbol": "▼"
+  },
+  {
+    "code": "59155",
+    "nameUk": "Темно-смарагдовий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#27453B",
+    "symbol": "■"
+  },
+  {
+    "code": "59195",
+    "nameUk": "Темно-сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#3D3D46",
+    "symbol": "□"
+  },
+  {
+    "code": "59205",
+    "nameUk": "Темно-сірий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#333C4D",
+    "symbol": "☆"
   },
   {
     "code": "60000",
-    "nameUk": "Світло-бузковий прозорий",
+    "nameUk": "Блакитний прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#E1BEE7",
+    "hex": "#5BAFCE",
     "symbol": "◈"
   },
   {
     "code": "60010",
-    "nameUk": "Лавандовий прозорий",
+    "nameUk": "Блакитний прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#CE93D8",
+    "hex": "#42A9D2",
     "symbol": "◈"
-  },
-  {
-    "code": "60020",
-    "nameUk": "Аметистовий фіолетовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#AB47BC",
-    "symbol": "◆"
   },
   {
     "code": "60030",
-    "nameUk": "Насичений фіолетовий прозорий",
+    "nameUk": "Блакитний прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#8E24AA",
+    "hex": "#2191C7",
     "symbol": "◆"
-  },
-  {
-    "code": "60040",
-    "nameUk": "Сливовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#7B1FA2",
-    "symbol": "◆"
-  },
-  {
-    "code": "60050",
-    "nameUk": "Чорничний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#6A1B9A",
-    "symbol": "◇"
-  },
-  {
-    "code": "60060",
-    "nameUk": "Глибокий аметист прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#4A148C",
-    "symbol": "○"
-  },
-  {
-    "code": "60080",
-    "nameUk": "Темно-сливовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#4A148C",
-    "symbol": "◌"
   },
   {
     "code": "60100",
-    "nameUk": "Темний баклажановий прозорий",
+    "nameUk": "Темно-блакитний прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#6A1B9A",
+    "hex": "#1B4470",
     "symbol": "◆"
   },
   {
-    "code": "60110",
-    "nameUk": "Чорно-фіолетовий прозорий",
+    "code": "60150",
+    "nameUk": "Блакитний прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#311B92",
-    "symbol": "✚"
+    "hex": "#1C85BA",
+    "symbol": "△"
   },
   {
-    "code": "61000",
-    "nameUk": "Світло-бузковий ірис",
-    "finish": "IRIS",
-    "hex": "#E1BEE7",
-    "symbol": "✖"
-  },
-  {
-    "code": "61010",
-    "nameUk": "Лавандовий райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#CE93D8",
-    "symbol": "★"
+    "code": "60300",
+    "nameUk": "Темно-синій прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#274083",
+    "symbol": "□"
   },
   {
     "code": "61030",
-    "nameUk": "Аметистовий бензиновий ірис",
+    "nameUk": "Блакитний бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#9C27B0",
+    "hex": "#2694BC",
     "symbol": "☆"
   },
   {
-    "code": "61080",
-    "nameUk": "Темно-фіолетовий райдужний ірис",
+    "code": "61300",
+    "nameUk": "Темно-синій бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#6A1B9A",
-    "symbol": "✪"
+    "hex": "#2E468A",
+    "symbol": "⬡"
   },
   {
-    "code": "61100",
-    "nameUk": "Баклажановий ірис бензин",
-    "finish": "IRIS",
-    "hex": "#4A148C",
-    "symbol": "❂"
-  },
-  {
-    "code": "63010",
-    "nameUk": "Ніжно-бузковий глухий",
+    "code": "63000",
+    "nameUk": "Світло-блакитний глухий",
     "finish": "OPAQUE",
-    "hex": "#E1BEE7",
-    "symbol": "❃"
+    "hex": "#62CCF2",
+    "symbol": "●"
   },
   {
     "code": "63020",
-    "nameUk": "Світло-бірюзовий аква глухий",
+    "nameUk": "Блакитний глухий",
     "finish": "OPAQUE",
-    "hex": "#80DEEA",
+    "hex": "#40C0EE",
     "symbol": "◈"
   },
   {
+    "code": "63021",
+    "nameUk": "Смарагдовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#72A595",
+    "symbol": "★"
+  },
+  {
+    "code": "63022",
+    "nameUk": "Волошковий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#5B5287",
+    "symbol": "△"
+  },
+  {
+    "code": "63025",
+    "nameUk": "Бірюзовий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#41969C",
+    "symbol": "▽"
+  },
+  {
     "code": "63030",
-    "nameUk": "Лавандовий глухий",
+    "nameUk": "Бірюзовий глухий",
     "finish": "OPAQUE",
-    "hex": "#BA68C8",
+    "hex": "#2AB8D7",
     "symbol": "♦"
   },
   {
-    "code": "63040",
-    "nameUk": "Бузковий насичений глухий",
-    "finish": "OPAQUE",
-    "hex": "#AB47BC",
-    "symbol": "♠"
-  },
-  {
     "code": "63050",
-    "nameUk": "Фіолетовий чорничний глухий",
+    "nameUk": "Блакитний глухий",
     "finish": "OPAQUE",
-    "hex": "#8E24AA",
+    "hex": "#0D9ED6",
     "symbol": "♠"
-  },
-  {
-    "code": "63060",
-    "nameUk": "Темно-лавандовий глухий",
-    "finish": "OPAQUE",
-    "hex": "#7B1FA2",
-    "symbol": "⬢"
   },
   {
     "code": "63080",
-    "nameUk": "Глибокий темно-фіолетовий глухий",
+    "nameUk": "Блакитний глухий",
     "finish": "OPAQUE",
-    "hex": "#4A148C",
+    "hex": "#0D7CC8",
     "symbol": "♠"
   },
   {
-    "code": "63100",
-    "nameUk": "Баклажановий темний глухий",
+    "code": "63130",
+    "nameUk": "Бірюзовий глухий",
     "finish": "OPAQUE",
-    "hex": "#311B92",
-    "symbol": "☼"
+    "hex": "#3BC1B6",
+    "symbol": "□"
   },
   {
-    "code": "66000",
-    "nameUk": "Світло-бузковий матовий",
-    "finish": "MATTE",
-    "hex": "#E1BEE7",
-    "symbol": "☽"
-  },
-  {
-    "code": "66010",
-    "nameUk": "Лавандовий матовий сатин",
-    "finish": "MATTE",
-    "hex": "#CE93D8",
-    "symbol": "✿"
+    "code": "64050",
+    "nameUk": "Блакитний бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#3FA9CF",
+    "symbol": "♥"
   },
   {
     "code": "66030",
-    "nameUk": "Аметистовий матовий",
-    "finish": "MATTE",
-    "hex": "#9C27B0",
+    "nameUk": "Блакитний прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#1A8AB2",
     "symbol": "❀"
   },
   {
-    "code": "66080",
-    "nameUk": "Темно-фіолетовий матовий",
-    "finish": "MATTE",
-    "hex": "#6A1B9A",
-    "symbol": "▰"
+    "code": "66300",
+    "nameUk": "Синій прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#35528A",
+    "symbol": "◇"
   },
   {
     "code": "67000",
-    "nameUk": "Світло-бузковий вогник",
+    "nameUk": "Бірюзовий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#E1BEE7",
+    "hex": "#519AB1",
     "symbol": "☆"
   },
   {
     "code": "67010",
-    "nameUk": "Лавандовий вогник",
+    "nameUk": "Блакитний прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#BA68C8",
+    "hex": "#2C8AB2",
     "symbol": "★"
-  },
-  {
-    "code": "67020",
-    "nameUk": "Рожево-бузковий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#CE93D8",
-    "symbol": "▤"
   },
   {
     "code": "67030",
-    "nameUk": "Аметистовий вогник",
+    "nameUk": "Блакитний прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#9C27B0",
+    "hex": "#3892B5",
     "symbol": "✪"
-  },
-  {
-    "code": "67040",
-    "nameUk": "Насичений фіолетовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#8E24AA",
-    "symbol": "◽"
-  },
-  {
-    "code": "67050",
-    "nameUk": "Сливовий вогник сяючий",
-    "finish": "SILVER_LINED",
-    "hex": "#7B1FA2",
-    "symbol": "◾"
-  },
-  {
-    "code": "67060",
-    "nameUk": "Чорничний вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#6A1B9A",
-    "symbol": "▷"
-  },
-  {
-    "code": "67080",
-    "nameUk": "Темно-аметистовий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#4A148C",
-    "symbol": "▶"
   },
   {
     "code": "67100",
-    "nameUk": "Темно-фіолетовий вогник",
+    "nameUk": "Темно-блакитний прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#6A1B9A",
+    "hex": "#254A69",
     "symbol": "❂"
   },
   {
-    "code": "67110",
-    "nameUk": "Баклажановий сяючий вогник",
+    "code": "67150",
+    "nameUk": "Блакитний прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#311B92",
-    "symbol": "◀"
+    "hex": "#206998",
+    "symbol": "♣"
   },
   {
-    "code": "68102",
-    "nameUk": "Фіолетовий металік хамелеон",
-    "finish": "METALLIC",
-    "hex": "#7B1FA2",
-    "symbol": "⬟"
-  },
-  {
-    "code": "68105",
-    "nameUk": "Сливовий металік",
-    "finish": "METALLIC",
-    "hex": "#6A1B9A",
-    "symbol": "▾"
-  },
-  {
-    "code": "68106",
-    "nameUk": "Темно-фіолетовий металік",
-    "finish": "METALLIC",
-    "hex": "#4A148C",
-    "symbol": "▵"
-  },
-  {
-    "code": "68131",
-    "nameUk": "Фіолетовий перламутр",
-    "finish": "LUSTRE",
-    "hex": "#BA68C8",
-    "symbol": "▴"
-  },
-  {
-    "code": "68231",
-    "nameUk": "Сливовий перламутр",
-    "finish": "LUSTRE",
-    "hex": "#8E24AA",
-    "symbol": "✛"
-  },
-  {
-    "code": "70010",
-    "nameUk": "Світло-бурштиновий мідний",
-    "finish": "TRANSPARENT",
-    "hex": "#D7CCC8",
-    "symbol": "⬟"
-  },
-  {
-    "code": "70020",
-    "nameUk": "Бурштиново-мідний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#BCAAA4",
-    "symbol": "■"
-  },
-  {
-    "code": "70030",
-    "nameUk": "Темно-мідний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#A1887F",
-    "symbol": "▲"
-  },
-  {
-    "code": "70050",
-    "nameUk": "Мідно-коричневий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#8D6E63",
-    "symbol": "▼"
-  },
-  {
-    "code": "70070",
-    "nameUk": "Темна антична бронза прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#6D4C41",
-    "symbol": "◆"
-  },
-  {
-    "code": "71010",
-    "nameUk": "Світло-мідний ірис",
-    "finish": "IRIS",
-    "hex": "#BCAAA4",
-    "symbol": "◇"
-  },
-  {
-    "code": "71030",
-    "nameUk": "Мідний райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#A1887F",
-    "symbol": "○"
-  },
-  {
-    "code": "73010",
-    "nameUk": "Світла охра глухий",
-    "finish": "OPAQUE",
-    "hex": "#D7CCC8",
-    "symbol": "◌"
-  },
-  {
-    "code": "73030",
-    "nameUk": "Мідний глухий",
-    "finish": "OPAQUE",
-    "hex": "#BCAAA4",
-    "symbol": "◈"
-  },
-  {
-    "code": "73050",
-    "nameUk": "Темно-мідний глухий",
-    "finish": "OPAQUE",
-    "hex": "#8D6E63",
-    "symbol": "✚"
-  },
-  {
-    "code": "77010",
-    "nameUk": "Світло-мідний вогник",
+    "code": "67300",
+    "nameUk": "Темно-синій прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#BCAAA4",
-    "symbol": "✵"
-  },
-  {
-    "code": "77020",
-    "nameUk": "Мідний вогник теплий",
-    "finish": "SILVER_LINED",
-    "hex": "#BCAAA4",
-    "symbol": "★"
-  },
-  {
-    "code": "77030",
-    "nameUk": "Червоно-мідний вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#A1887F",
-    "symbol": "✸"
-  },
-  {
-    "code": "77040",
-    "nameUk": "Антична мідь вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#8D6E63",
-    "symbol": "✪"
-  },
-  {
-    "code": "77050",
-    "nameUk": "Темно-мідний сяючий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#6D4C41",
-    "symbol": "❂"
-  },
-  {
-    "code": "78102",
-    "nameUk": "Бронзовий металік",
-    "finish": "METALLIC",
-    "hex": "#8D6E63",
-    "symbol": "⬟"
-  },
-  {
-    "code": "78104",
-    "nameUk": "Золотисто-бронзовий металік",
-    "finish": "METALLIC",
-    "hex": "#A1887F",
-    "symbol": "♥"
-  },
-  {
-    "code": "78131",
-    "nameUk": "Мідний перламутр",
-    "finish": "LUSTRE",
-    "hex": "#BCAAA4",
+    "hex": "#2B3B6B",
     "symbol": "♦"
   },
   {
-    "code": "78191",
-    "nameUk": "Антична мідь перламутр",
-    "finish": "LUSTRE",
-    "hex": "#8D6E63",
-    "symbol": "♠"
+    "code": "68050",
+    "nameUk": "Блакитний глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#3D99BA",
+    "symbol": "□"
   },
   {
-    "code": "78202",
-    "nameUk": "Темно-бронзовий металік",
-    "finish": "METALLIC",
-    "hex": "#5D4037",
+    "code": "78102",
+    "nameUk": "Сірий прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#A6AEA3",
     "symbol": "⬟"
   },
   {
     "code": "80010",
-    "nameUk": "Жовтий лимонний прозорий",
+    "nameUk": "Світло-бурштиновий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#FFF176",
+    "hex": "#C8C71B",
     "symbol": "▷"
-  },
-  {
-    "code": "80020",
-    "nameUk": "Світло-жовтий сонячний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#FFEE58",
-    "symbol": "■"
-  },
-  {
-    "code": "80030",
-    "nameUk": "Канарковий жовтий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#FFEB3B",
-    "symbol": "▲"
-  },
-  {
-    "code": "80040",
-    "nameUk": "Золотисто-жовтий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#FDD835",
-    "symbol": "▼"
-  },
-  {
-    "code": "80050",
-    "nameUk": "Яскравий сонячний жовтий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#FDD835",
-    "symbol": "◆"
   },
   {
     "code": "80060",
-    "nameUk": "Жовтий сонячний прозорий",
+    "nameUk": "Бурштиновий прозорий",
     "finish": "TRANSPARENT",
-    "hex": "#FDD835",
+    "hex": "#D9B212",
     "symbol": "▶"
-  },
-  {
-    "code": "80070",
-    "nameUk": "Теплий жовток прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#FBC02D",
-    "symbol": "○"
-  },
-  {
-    "code": "80080",
-    "nameUk": "Глибокий жовтий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#F9A825",
-    "symbol": "◌"
-  },
-  {
-    "code": "80090",
-    "nameUk": "Темно-жовтий шафрановий",
-    "finish": "TRANSPARENT",
-    "hex": "#FBC02D",
-    "symbol": "▶"
-  },
-  {
-    "code": "80100",
-    "nameUk": "Медово-жовтий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#F57F17",
-    "symbol": "✚"
-  },
-  {
-    "code": "81010",
-    "nameUk": "Лимонний райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#FFF59D",
-    "symbol": "✖"
-  },
-  {
-    "code": "81040",
-    "nameUk": "Сонячний райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#FFEE58",
-    "symbol": "★"
   },
   {
     "code": "81060",
-    "nameUk": "Золотисто-жовтий ірис",
+    "nameUk": "Бурштиновий бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#FDD835",
+    "hex": "#CCB129",
     "symbol": "☆"
   },
   {
-    "code": "81090",
-    "nameUk": "Шафрановий райдужний ірис",
-    "finish": "IRIS",
-    "hex": "#FBC02D",
-    "symbol": "✪"
+    "code": "81733",
+    "nameUk": "Оливковий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#627F4B",
+    "symbol": "▼"
   },
   {
-    "code": "82010",
-    "nameUk": "Лимонний шовковий сатин",
-    "finish": "MATTE",
-    "hex": "#FFF59D",
-    "symbol": "❂"
+    "code": "81761",
+    "nameUk": "Оливковий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#667B3E",
+    "symbol": "□"
   },
   {
-    "code": "82060",
-    "nameUk": "Сонячний шовковий сатин",
-    "finish": "MATTE",
-    "hex": "#FDD835",
-    "symbol": "❃"
+    "code": "81797",
+    "nameUk": "Кораловий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#B44F1F",
+    "symbol": "◆"
   },
   {
     "code": "83110",
-    "nameUk": "Жовтий сонячний глухий",
+    "nameUk": "Світло-жовтий глухий",
     "finish": "OPAQUE",
-    "hex": "#FBC02D",
+    "hex": "#F4FC07",
     "symbol": "▼"
   },
   {
-    "code": "83120",
-    "nameUk": "Жовтий канарковий глухий",
-    "finish": "OPAQUE",
-    "hex": "#FFEB3B",
-    "symbol": "♦"
+    "code": "83111",
+    "nameUk": "Світло-бурштиновий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#E1C53C",
+    "symbol": "○"
   },
   {
-    "code": "83130",
-    "nameUk": "Жовтий пастельний глухий",
-    "finish": "OPAQUE",
-    "hex": "#FFF59D",
-    "symbol": "▽"
+    "code": "83112",
+    "nameUk": "Темно-коричневий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#6F5D2D",
+    "symbol": "◈"
   },
   {
-    "code": "83140",
-    "nameUk": "Світло-лимонний глухий",
-    "finish": "OPAQUE",
-    "hex": "#FFFDE7",
-    "symbol": "⬟"
-  },
-  {
-    "code": "83150",
-    "nameUk": "Банановий теплий глухий",
-    "finish": "OPAQUE",
-    "hex": "#FFF176",
-    "symbol": "⬢"
-  },
-  {
-    "code": "83160",
-    "nameUk": "Шафрановий глухий",
-    "finish": "OPAQUE",
-    "hex": "#FDD835",
+    "code": "83113",
+    "nameUk": "Оливковий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#658F34",
     "symbol": "⬡"
   },
   {
-    "code": "83170",
-    "nameUk": "Гірчично-жовтий глухий",
+    "code": "83119",
+    "nameUk": "Помаранчевий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#9F740F",
+    "symbol": "⬢"
+  },
+  {
+    "code": "83130",
+    "nameUk": "Світло-бурштиновий глухий",
     "finish": "OPAQUE",
-    "hex": "#F9A825",
+    "hex": "#FBFA08",
+    "symbol": "▽"
+  },
+  {
+    "code": "83150",
+    "nameUk": "Жовтий глухий, зі смужками",
+    "finish": "OPAQUE",
+    "hex": "#A2A621",
+    "symbol": "⬢"
+  },
+  {
+    "code": "83170",
+    "nameUk": "Бурштиновий глухий, зі смужками",
+    "finish": "OPAQUE",
+    "hex": "#C3BB1D",
     "symbol": "☼"
   },
   {
-    "code": "83180",
-    "nameUk": "Теплий яєчний глухий",
+    "code": "83490",
+    "nameUk": "Жовтий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#F57F17",
-    "symbol": "☽"
+    "hex": "#ADB21F",
+    "symbol": "●"
   },
   {
-    "code": "84110",
-    "nameUk": "Сонячний напівпрозорий опал",
+    "code": "83491",
+    "nameUk": "Бурштиновий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#FFF59D",
-    "symbol": "✿"
+    "hex": "#ADAB1F",
+    "symbol": "▽"
   },
   {
-    "code": "84130",
-    "nameUk": "Пастельно-жовтий опал",
+    "code": "83500",
+    "nameUk": "Жовтий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#FFF9C4",
-    "symbol": "❀"
+    "hex": "#AFB61E",
+    "symbol": "◑"
   },
   {
-    "code": "86010",
-    "nameUk": "Лимонний матовий",
-    "finish": "MATTE",
-    "hex": "#FFF59D",
-    "symbol": "▰"
-  },
-  {
-    "code": "86030",
-    "nameUk": "Пастельно-жовтий матовий",
-    "finish": "MATTE",
-    "hex": "#FFEE58",
-    "symbol": "▱"
-  },
-  {
-    "code": "86060",
-    "nameUk": "Жовтий сонячний матовий",
-    "finish": "MATTE",
-    "hex": "#FBC02D",
-    "symbol": "▦"
-  },
-  {
-    "code": "86090",
-    "nameUk": "Шафрановий матовий сатин",
-    "finish": "MATTE",
-    "hex": "#F9A825",
-    "symbol": "▤"
-  },
-  {
-    "code": "87010",
-    "nameUk": "Теплий медовий бурштин глухий",
+    "code": "83501",
+    "nameUk": "Жовтий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#FFA000",
-    "symbol": "▿"
-  },
-  {
-    "code": "87020",
-    "nameUk": "Світло-золотий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#FFF59D",
-    "symbol": "◽"
-  },
-  {
-    "code": "87030",
-    "nameUk": "Лимонний сяючий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#FFEE58",
-    "symbol": "◾"
-  },
-  {
-    "code": "87040",
-    "nameUk": "Сонячно-жовтий сяючий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#FFEB3B",
-    "symbol": "▷"
-  },
-  {
-    "code": "87050",
-    "nameUk": "Золотисто-жовтий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#FFD700",
-    "symbol": "▶"
-  },
-  {
-    "code": "87060",
-    "nameUk": "Золотий вогник насичений",
-    "finish": "SILVER_LINED",
-    "hex": "#FFD700",
-    "symbol": "✷"
-  },
-  {
-    "code": "87070",
-    "nameUk": "Теплий золотий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#FFC107",
-    "symbol": "◀"
-  },
-  {
-    "code": "87080",
-    "nameUk": "Бурштиново-золотий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#FFB300",
-    "symbol": "▿"
-  },
-  {
-    "code": "87090",
-    "nameUk": "Шафрановий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#FFA000",
-    "symbol": "▾"
-  },
-  {
-    "code": "87100",
-    "nameUk": "Медовий вогник темний",
-    "finish": "SILVER_LINED",
-    "hex": "#FF8F00",
-    "symbol": "▵"
-  },
-  {
-    "code": "88131",
-    "nameUk": "Золотистий перламутр",
-    "finish": "LUSTRE",
-    "hex": "#FFE082",
-    "symbol": "♦"
-  },
-  {
-    "code": "88140",
-    "nameUk": "Лимонний перламутр",
-    "finish": "LUSTRE",
-    "hex": "#FFF9C4",
-    "symbol": "✛"
-  },
-  {
-    "code": "88160",
-    "nameUk": "Сонячно-жовтий перламутр",
-    "finish": "LUSTRE",
-    "hex": "#FFECB3",
-    "symbol": "✦"
-  },
-  {
-    "code": "88180",
-    "nameUk": "Медовий перламутр",
-    "finish": "LUSTRE",
-    "hex": "#FFE082",
-    "symbol": "✧"
-  },
-  {
-    "code": "90010",
-    "nameUk": "Світло-кораловий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#FF8A80",
-    "symbol": "▤"
-  },
-  {
-    "code": "90020",
-    "nameUk": "Коралово-червоний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#FF5252",
-    "symbol": "■"
-  },
-  {
-    "code": "90030",
-    "nameUk": "Світло-рубіновий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#EF5350",
-    "symbol": "▲"
-  },
-  {
-    "code": "90040",
-    "nameUk": "Полуничний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#E53935",
+    "hex": "#A4A920",
     "symbol": "▼"
   },
   {
-    "code": "90050",
-    "nameUk": "Червоний полуничний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#E53935",
+    "code": "83520",
+    "nameUk": "Жовтий глухий, зі смужками",
+    "finish": "OPAQUE",
+    "hex": "#AFBB27",
+    "symbol": "◓"
+  },
+  {
+    "code": "83590",
+    "nameUk": "Бурштиновий глухий, зі смужками",
+    "finish": "OPAQUE",
+    "hex": "#C8B71C",
     "symbol": "▲"
   },
   {
-    "code": "90060",
-    "nameUk": "Червоний яскравий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#D32F2F",
-    "symbol": "◇"
+    "code": "83970",
+    "nameUk": "Світло-бурштиновий глухий, зі смужками",
+    "finish": "OPAQUE",
+    "hex": "#D8B91D",
+    "symbol": "△"
   },
   {
-    "code": "90070",
-    "nameUk": "Темний гранатовий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#C62828",
-    "symbol": "▲"
-  },
-  {
-    "code": "90080",
-    "nameUk": "Рубіновий глибокий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#C62828",
-    "symbol": "◌"
-  },
-  {
-    "code": "90090",
-    "nameUk": "Винний бордо прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#B71C1C",
-    "symbol": "▲"
-  },
-  {
-    "code": "90100",
-    "nameUk": "Темно-вишневий прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#880E4F",
-    "symbol": "✚"
-  },
-  {
-    "code": "90110",
-    "nameUk": "Бордовий темний прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#880E4F",
-    "symbol": "✖"
-  },
-  {
-    "code": "90120",
-    "nameUk": "Глибокий гранат прозорий",
-    "finish": "TRANSPARENT",
-    "hex": "#4A148C",
+    "code": "83971",
+    "nameUk": "Помаранчевий глухий, зі смужками",
+    "finish": "OPAQUE",
+    "hex": "#D3A11A",
     "symbol": "★"
   },
   {
-    "code": "91010",
-    "nameUk": "Помаранчевий райдужний ірис",
+    "code": "84110",
+    "nameUk": "Світло-жовтий бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#FFB74D",
-    "symbol": "☆"
+    "hex": "#F6F91A",
+    "symbol": "✿"
   },
   {
-    "code": "91020",
-    "nameUk": "Світло-кораловий ірис",
-    "finish": "IRIS",
-    "hex": "#FF8A80",
-    "symbol": "✪"
+    "code": "84150",
+    "nameUk": "Бурштиновий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#AFAE66",
+    "symbol": "◑"
   },
   {
-    "code": "91040",
-    "nameUk": "Червоний райдужний ірис",
+    "code": "84490",
+    "nameUk": "Жовтий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#B5BC45",
+    "symbol": "●"
+  },
+  {
+    "code": "84500",
+    "nameUk": "Жовтий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#B3BF45",
+    "symbol": "◓"
+  },
+  {
+    "code": "84520",
+    "nameUk": "Жовтий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#B2BD43",
+    "symbol": "◒"
+  },
+  {
+    "code": "84590",
+    "nameUk": "Бурштиновий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#BFB447",
+    "symbol": "○"
+  },
+  {
+    "code": "84970",
+    "nameUk": "Бурштиновий матовий, зі смужками",
+    "finish": "MATTE",
+    "hex": "#D4B636",
+    "symbol": "▲"
+  },
+  {
+    "code": "86060",
+    "nameUk": "Бурштиновий прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#C3A840",
+    "symbol": "▦"
+  },
+  {
+    "code": "87010",
+    "nameUk": "Жовтий прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#ABAD2C",
+    "symbol": "▿"
+  },
+  {
+    "code": "87060",
+    "nameUk": "Бурштиновий прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#BA9E23",
+    "symbol": "✷"
+  },
+  {
+    "code": "87069",
+    "nameUk": "Бурштиновий бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#E53935",
-    "symbol": "❂"
+    "hex": "#B69E29",
+    "symbol": "◐"
+  },
+  {
+    "code": "87733",
+    "nameUk": "Темно-оливковий прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#4B653C",
+    "symbol": "⬢"
+  },
+  {
+    "code": "87761",
+    "nameUk": "Темно-оливковий прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#4C643B",
+    "symbol": "⬡"
+  },
+  {
+    "code": "87797",
+    "nameUk": "Коричневий прозорий вогник",
+    "finish": "SILVER_LINED",
+    "hex": "#965126",
+    "symbol": "★"
+  },
+  {
+    "code": "88110",
+    "nameUk": "Світло-жовтий глухий, сатиновий «сфінкс»",
+    "finish": "OPAQUE",
+    "hex": "#E9EB1F",
+    "symbol": "◆"
+  },
+  {
+    "code": "90000",
+    "nameUk": "Помаранчевий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#E1791C",
+    "symbol": "▼"
+  },
+  {
+    "code": "90030",
+    "nameUk": "Кораловий прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#D34B1F",
+    "symbol": "▲"
+  },
+  {
+    "code": "90050",
+    "nameUk": "Червоний прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#DC3A23",
+    "symbol": "▲"
+  },
+  {
+    "code": "90070",
+    "nameUk": "Червоний прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#D0201E",
+    "symbol": "▲"
+  },
+  {
+    "code": "90090",
+    "nameUk": "Червоний прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#A32022",
+    "symbol": "▲"
+  },
+  {
+    "code": "90120",
+    "nameUk": "Темно-червоний прозорий",
+    "finish": "TRANSPARENT",
+    "hex": "#8E2221",
+    "symbol": "★"
+  },
+  {
+    "code": "91050",
+    "nameUk": "Червоний бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#D44538",
+    "symbol": "◈"
   },
   {
     "code": "91070",
-    "nameUk": "Рубіновий бензиновий ірис",
-    "finish": "IRIS",
-    "hex": "#C62828",
+    "nameUk": "Червоний матовий",
+    "finish": "MATTE",
+    "hex": "#C64E4C",
     "symbol": "❃"
   },
   {
     "code": "91090",
-    "nameUk": "Бордо бензиновий ірис",
+    "nameUk": "Червоний бензиновий ірис",
     "finish": "IRIS",
-    "hex": "#880E4F",
+    "hex": "#A12F2F",
     "symbol": "♥"
   },
   {
-    "code": "92010",
-    "nameUk": "Кораловий шовковий сатин",
-    "finish": "MATTE",
-    "hex": "#FF8A80",
-    "symbol": "♦"
-  },
-  {
-    "code": "92050",
-    "nameUk": "Червоний шовковий сатин",
-    "finish": "MATTE",
-    "hex": "#E53935",
-    "symbol": "♠"
-  },
-  {
-    "code": "92090",
-    "nameUk": "Винний сатиновий шовк",
-    "finish": "MATTE",
-    "hex": "#B71C1C",
-    "symbol": "⬟"
+    "code": "93050",
+    "nameUk": "Темно-червоний глухий, зі смужками",
+    "finish": "OPAQUE",
+    "hex": "#6F3730",
+    "symbol": "⬢"
   },
   {
     "code": "93110",
-    "nameUk": "Мандариновий бурштин глухий",
+    "nameUk": "Світло-помаранчевий глухий",
     "finish": "OPAQUE",
-    "hex": "#FF9800",
+    "hex": "#FCBE0A",
     "symbol": "▵"
   },
   {
-    "code": "93120",
-    "nameUk": "Світло-помаранчевий глухий",
-    "finish": "OPAQUE",
-    "hex": "#FFA726",
-    "symbol": "⬡"
-  },
-  {
-    "code": "93130",
-    "nameUk": "Апельсиновий глухий",
-    "finish": "OPAQUE",
-    "hex": "#FF9800",
-    "symbol": "☼"
-  },
-  {
     "code": "93140",
-    "nameUk": "Помаранчевий соковитий глухий",
+    "nameUk": "Кораловий глухий",
     "finish": "OPAQUE",
-    "hex": "#F57C00",
+    "hex": "#FA611C",
     "symbol": "▲"
   },
   {
-    "code": "93150",
-    "nameUk": "Червоно-помаранчевий глухий",
-    "finish": "OPAQUE",
-    "hex": "#E64A19",
-    "symbol": "✿"
-  },
-  {
-    "code": "93160",
-    "nameUk": "Коралово-червоний глухий",
-    "finish": "OPAQUE",
-    "hex": "#D84315",
-    "symbol": "❀"
+    "code": "93141",
+    "nameUk": "Червоний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#EA624B",
+    "symbol": "▲"
   },
   {
     "code": "93170",
-    "nameUk": "Темний рубіновий глухий",
+    "nameUk": "Червоний глухий",
     "finish": "OPAQUE",
-    "hex": "#880E4F",
+    "hex": "#F8100B",
     "symbol": "◆"
   },
   {
-    "code": "93180",
-    "nameUk": "Червоний класичний глухий",
+    "code": "93190",
+    "nameUk": "Червоний глухий",
     "finish": "OPAQUE",
-    "hex": "#E53935",
-    "symbol": "▱"
+    "hex": "#E2231F",
+    "symbol": "■"
   },
   {
-    "code": "93190",
-    "nameUk": "Червоний насичений глухий",
-    "finish": "OPAQUE",
-    "hex": "#D32F2F",
-    "symbol": "■"
+    "code": "93192",
+    "nameUk": "Темно-червоний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#683232",
+    "symbol": "♣"
+  },
+  {
+    "code": "93195",
+    "nameUk": "Червоний перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#834A44",
+    "symbol": "♥"
+  },
+  {
+    "code": "93199",
+    "nameUk": "Кораловий перламутровий",
+    "finish": "LUSTRE",
+    "hex": "#993E22",
+    "symbol": "♠"
   },
   {
     "code": "93210",
-    "nameUk": "Темно-червоний кармін глухий",
+    "nameUk": "Червоний глухий",
     "finish": "OPAQUE",
-    "hex": "#C62828",
+    "hex": "#A52B27",
     "symbol": "■"
   },
   {
-    "code": "93220",
-    "nameUk": "Кармін вишневий глухий",
-    "finish": "OPAQUE",
-    "hex": "#B71C1C",
-    "symbol": "▥"
-  },
-  {
-    "code": "93230",
-    "nameUk": "Глибокий кармін глухий",
-    "finish": "OPAQUE",
-    "hex": "#B71C1C",
-    "symbol": "◽"
-  },
-  {
     "code": "93300",
-    "nameUk": "Стигла вишня глухий",
+    "nameUk": "Темно-червоний глухий",
     "finish": "OPAQUE",
-    "hex": "#880E4F",
+    "hex": "#822F25",
     "symbol": "◾"
   },
   {
     "code": "93310",
-    "nameUk": "Червоний вишневий глухий",
+    "nameUk": "Червоний глухий",
     "finish": "OPAQUE",
-    "hex": "#B71C1C",
+    "hex": "#7F3830",
     "symbol": "■"
   },
   {
-    "code": "94110",
-    "nameUk": "Помаранчевий опал напівпрозорий",
+    "code": "93490",
+    "nameUk": "Кораловий глухий, зі смужками",
     "finish": "OPAQUE",
-    "hex": "#FFB74D",
-    "symbol": "▶"
+    "hex": "#C4401B",
+    "symbol": "■"
+  },
+  {
+    "code": "94050",
+    "nameUk": "Червоний бензиновий ірис, зі смужками",
+    "finish": "IRIS",
+    "hex": "#69433F",
+    "symbol": "♥"
   },
   {
     "code": "94140",
-    "nameUk": "Червоний опал напівпрозорий",
-    "finish": "OPAQUE",
-    "hex": "#E57373",
+    "nameUk": "Кораловий бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#F9612B",
     "symbol": "◁"
   },
   {
-    "code": "94170",
-    "nameUk": "Рубіновий опал напівпрозорий",
-    "finish": "OPAQUE",
-    "hex": "#C2185B",
-    "symbol": "◀"
-  },
-  {
     "code": "94190",
-    "nameUk": "Вишневий опал напівпрозорий",
-    "finish": "OPAQUE",
-    "hex": "#AD1457",
+    "nameUk": "Червоний бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#E24B50",
     "symbol": "▿"
   },
   {
-    "code": "96010",
-    "nameUk": "Помаранчевий матовий",
-    "finish": "MATTE",
-    "hex": "#FB8C00",
-    "symbol": "▾"
-  },
-  {
-    "code": "96020",
-    "nameUk": "Кораловий матовий сатин",
-    "finish": "MATTE",
-    "hex": "#FF7043",
-    "symbol": "▵"
+    "code": "94490",
+    "nameUk": "Кораловий бензиновий ірис, зі смужками",
+    "finish": "IRIS",
+    "hex": "#C14927",
+    "symbol": "♣"
   },
   {
     "code": "96050",
-    "nameUk": "Червоний матовий",
-    "finish": "MATTE",
-    "hex": "#D32F2F",
+    "nameUk": "Червоний прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#D24E42",
     "symbol": "▴"
   },
   {
-    "code": "96070",
-    "nameUk": "Темно-червоний матовий",
-    "finish": "MATTE",
-    "hex": "#C62828",
-    "symbol": "✛"
-  },
-  {
     "code": "96090",
-    "nameUk": "Бордовий матовий",
-    "finish": "MATTE",
-    "hex": "#880E4F",
+    "nameUk": "Червоний прозорий, сатиновий «сфінкс»",
+    "finish": "TRANSPARENT",
+    "hex": "#993D45",
     "symbol": "✦"
   },
   {
-    "code": "97010",
-    "nameUk": "Світло-помаранчевий вогник",
+    "code": "97000",
+    "nameUk": "Помаранчевий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#FFA726",
-    "symbol": "✧"
-  },
-  {
-    "code": "97020",
-    "nameUk": "Помаранчевий вогник мандарин",
-    "finish": "SILVER_LINED",
-    "hex": "#FF9800",
-    "symbol": "✵"
+    "hex": "#D0701E",
+    "symbol": "◒"
   },
   {
     "code": "97030",
-    "nameUk": "Кораловий вогник",
+    "nameUk": "Кораловий прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#FF7043",
+    "hex": "#C64923",
     "symbol": "✪"
-  },
-  {
-    "code": "97040",
-    "nameUk": "Світло-кораловий вогник сяючий",
-    "finish": "SILVER_LINED",
-    "hex": "#FF5252",
-    "symbol": "✷"
   },
   {
     "code": "97050",
-    "nameUk": "Світло-червоний вогник",
+    "nameUk": "Червоний прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#FF5252",
+    "hex": "#C53723",
     "symbol": "✪"
-  },
-  {
-    "code": "97060",
-    "nameUk": "Полуничний сяючий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#F44336",
-    "symbol": "✹"
   },
   {
     "code": "97070",
-    "nameUk": "Червоний вогник класичний",
+    "nameUk": "Червоний прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#E53935",
+    "hex": "#B12924",
     "symbol": "✪"
   },
   {
-    "code": "97080",
-    "nameUk": "Насичений червоний вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#D32F2F",
-    "symbol": "▤"
+    "code": "97079",
+    "nameUk": "Червоний бензиновий ірис",
+    "finish": "IRIS",
+    "hex": "#A23338",
+    "symbol": "◑"
   },
   {
     "code": "97090",
-    "nameUk": "Темно-рубіновий вогник",
+    "nameUk": "Червоний прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#C62828",
+    "hex": "#8E2A29",
     "symbol": "✪"
-  },
-  {
-    "code": "97100",
-    "nameUk": "Гранатовий сяючий вогник",
-    "finish": "SILVER_LINED",
-    "hex": "#B71C1C",
-    "symbol": "▲"
-  },
-  {
-    "code": "97110",
-    "nameUk": "Винний вогник рубін",
-    "finish": "SILVER_LINED",
-    "hex": "#9C1B1B",
-    "symbol": "▼"
   },
   {
     "code": "97120",
-    "nameUk": "Гранатовий вогник бордо",
+    "nameUk": "Темно-червоний прозорий вогник",
     "finish": "SILVER_LINED",
-    "hex": "#880E4F",
+    "hex": "#822C29",
     "symbol": "✪"
   },
   {
-    "code": "98110",
-    "nameUk": "Бордо виноградний глухий",
-    "finish": "OPAQUE",
-    "hex": "#4A148C",
-    "symbol": "♠"
-  },
-  {
-    "code": "98120",
-    "nameUk": "Бордо стиглий глухий",
-    "finish": "OPAQUE",
-    "hex": "#6A1B9A",
-    "symbol": "○"
-  },
-  {
-    "code": "98130",
-    "nameUk": "Буряковий глухий",
-    "finish": "OPAQUE",
-    "hex": "#7B1FA2",
-    "symbol": "◌"
-  },
-  {
     "code": "98140",
-    "nameUk": "Малиновий бордо глухий",
+    "nameUk": "Кораловий глухий, сатиновий «сфінкс»",
     "finish": "OPAQUE",
-    "hex": "#880E4F",
+    "hex": "#F66337",
     "symbol": "♠"
-  },
-  {
-    "code": "98150",
-    "nameUk": "Виноградний темний глухий",
-    "finish": "OPAQUE",
-    "hex": "#5B0E3C",
-    "symbol": "✚"
-  },
-  {
-    "code": "98160",
-    "nameUk": "Темна слива бордовий глухий",
-    "finish": "OPAQUE",
-    "hex": "#4A148C",
-    "symbol": "✖"
-  },
-  {
-    "code": "98170",
-    "nameUk": "Темна слива глухий",
-    "finish": "OPAQUE",
-    "hex": "#4A148C",
-    "symbol": "♠"
-  },
-  {
-    "code": "98180",
-    "nameUk": "Ожиновий глибокий глухий",
-    "finish": "OPAQUE",
-    "hex": "#3E0C2F",
-    "symbol": "☆"
   },
   {
     "code": "98190",
-    "nameUk": "Брусничний червоний глухий",
+    "nameUk": "Червоний глухий, сатиновий «сфінкс»",
     "finish": "OPAQUE",
-    "hex": "#AD1457",
+    "hex": "#D04348",
     "symbol": "♠"
-  },
-  {
-    "code": "98210",
-    "nameUk": "Темно-брусничний глухий",
-    "finish": "OPAQUE",
-    "hex": "#880E4F",
-    "symbol": "❂"
-  },
-  {
-    "code": "98220",
-    "nameUk": "Кармін-бордо глухий",
-    "finish": "OPAQUE",
-    "hex": "#AD1457",
-    "symbol": "❃"
-  },
-  {
-    "code": "98310",
-    "nameUk": "Ніжно-рожевий глухий",
-    "finish": "OPAQUE",
-    "hex": "#F8BBD0",
-    "symbol": "♡"
-  },
-  {
-    "code": "98320",
-    "nameUk": "Пастельно-рожевий глухий",
-    "finish": "OPAQUE",
-    "hex": "#F48FB1",
-    "symbol": "♦"
-  },
-  {
-    "code": "98330",
-    "nameUk": "Рожева фуксія глухий",
-    "finish": "OPAQUE",
-    "hex": "#E91E63",
-    "symbol": "♥"
-  },
-  {
-    "code": "98340",
-    "nameUk": "Малиново-рожевий глухий",
-    "finish": "OPAQUE",
-    "hex": "#D81B60",
-    "symbol": "⬟"
-  },
-  {
-    "code": "98350",
-    "nameUk": "Яскравий малиновий глухий",
-    "finish": "OPAQUE",
-    "hex": "#C2185B",
-    "symbol": "♥"
-  },
-  {
-    "code": "98360",
-    "nameUk": "Темна фуксія глухий",
-    "finish": "OPAQUE",
-    "hex": "#AD1457",
-    "symbol": "⬡"
-  },
-  {
-    "code": "98370",
-    "nameUk": "Глибока малина глухий",
-    "finish": "OPAQUE",
-    "hex": "#880E4F",
-    "symbol": "☼"
   }
 ]

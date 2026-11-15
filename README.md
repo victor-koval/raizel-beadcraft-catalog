@@ -1,12 +1,12 @@
 ﻿# Raizel Beadcraft • Preciosa Ornela 10/0 Catalog
 
 [![Catalog Validation](https://github.com/victor-koval/raizel-beadcraft-catalog/actions/workflows/validate_catalog.yml/badge.svg)](https://github.com/victor-koval/raizel-beadcraft-catalog/actions/workflows/validate_catalog.yml)
-![Total Beads](https://img.shields.io/badge/Preciosa%2010%2F0-502%20кольорів-ff69b4)
+![Total Beads](https://img.shields.io/badge/Preciosa%2010%2F0-483%20кольори-ff69b4)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 Офіційний відкритий онлайн-каталог чеського бісеру **Preciosa Ornela** розміру **10/0** для мобільного застосунку **«Raizel Beadcraft»**.
 
-- **Кількість відтінків у базі:** <!-- COUNT_START -->**502 артикулів**<!-- COUNT_END -->
+- **Кількість відтінків у базі:** <!-- COUNT_START -->**483 артикулів**<!-- COUNT_END -->
 - **Останнє оновлення каталогу:** <!-- DATE_START -->2026-11-15<!-- DATE_END -->
 - **Пряме посилання на сирий JSON для додатка:**  
   `https://raw.githubusercontent.com/victor-koval/raizel-beadcraft-catalog/main/preciosa_palette.json`
@@ -64,7 +64,19 @@ GitHub Actions (`.github/workflows/validate_catalog.yml`) на кожен push �
 Також можна оновити вручну кнопкою синхронізації в палітрі Preciosa. Отже, щойно зміни потрапляють у `main`,
 нові кольори з'являються в додатку протягом доби.
 
+### Джерело даних
+Каталог побудовано з офіційного PDF виробника «Seed Beads – Rocailles» (Sample Cards):
+`https://www.preciosa-ornela.com/content/files/downloads/Rocailles-Sample-Cards.pdf`
+скриптом `scripts/build_from_pdf.py` (PDF у репозиторій не входить — завантажте за посиланням):
+
+    python scripts/build_from_pdf.py Rocailles-Sample-Cards.pdf preciosa_palette.json preciosa_palette.json build_report.md
+
+- `code` — з текстового шару PDF; лише коди, що є в картах виробника.
+- `hex` — виміряний медіанний колір смужки бісеру поруч із кодом (без фону й бліків).
+- `finish` — за назвою секції (Opaque, Silver Lined, Matt, Rainbow, Lustered, Metallic…);
+  секції, які не вдається однозначно зіставити (Terra Color Lined, Solgel Dyed, Striped Color Lined тощо), поки не включені.
+- `nameUk` — описова назва за кольором і покриттям з позначкою спецефектів («зі смужками», «сфінкс», «фарбований»).
+
 ### Відомі обмеження
-- HEX-кольори **наближені** (не виміряні з реальних зразків Preciosa), тому частина артикулів має однаковий HEX.
-  Додаток автоматично робить колір кожного артикулу унікальним.
+- Виробник попереджає, що кольори на екрані можуть відрізнятися від реальних; HEX — це вимірювання зі зразків у PDF.
 - Символи (`symbol`) повторюються між артикулами; додаток призначає унікальні символи в межах кожної схеми.
