@@ -20,7 +20,8 @@ from PIL import Image
 DPI = 300
 SCALE = DPI / 72
 
-CODE_PATTERN = re.compile(r"^\d{5}[A-Z]?$")
+# Код: 5 цифр + необов'язкова літера варіанту; зірочка в кінці — лише позначка-примітка (напр. «20206*» = золото «Gold*»)
+CODE_PATTERN = re.compile(r"^\d{5}[A-Z]?\*?$")
 
 DEFAULT_SYMBOLS = [
     "●", "○", "▲", "△", "■", "□", "◆", "◇", "▼", "▽",
@@ -252,7 +253,7 @@ def build_catalog(pdf_path, old_palette_path, output_json_path, report_md_path):
                     if text:
                         lines.append((l["bbox"], text))
 
-        codes = [l for l in lines if CODE_PATTERN.match(l[1])]
+        codes = [(l[0], l[1].rstrip("*")) for l in lines if CODE_PATTERN.match(l[1])]
         total_raw_codes += len(codes)
 
         for min_x, max_x in cols:
