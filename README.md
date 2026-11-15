@@ -7,7 +7,7 @@
 Офіційний відкритий онлайн-каталог чеського бісеру **Preciosa Ornela** розміру **10/0** для мобільного застосунку **«Raizel Beadcraft»**.
 
 - **Кількість відтінків у базі:** <!-- COUNT_START -->**502 артикулів**<!-- COUNT_END -->
-- **Останнє оновлення:** <!-- DATE_START -->2026-11-15 10:57 UTC<!-- DATE_END -->
+- **Останнє оновлення:** <!-- DATE_START -->2026-11-15 10:58 UTC<!-- DATE_END -->
 - **Пряме посилання на сирий JSON для додатка:**  
   `https://raw.githubusercontent.com/victor-koval/raizel-beadcraft-catalog/main/preciosa_palette.json`
 
