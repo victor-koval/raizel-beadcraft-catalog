@@ -1,13 +1,13 @@
 ﻿# Raizel Beadcraft • Preciosa Ornela 10/0 Catalog
 
-[![Catalog Sync & Validation](https://github.com/victor-koval/raizel-beadcraft-catalog/actions/workflows/update_catalog.yml/badge.svg)](https://github.com/victor-koval/raizel-beadcraft-catalog/actions/workflows/update_catalog.yml)
+[![Catalog Validation](https://github.com/victor-koval/raizel-beadcraft-catalog/actions/workflows/validate_catalog.yml/badge.svg)](https://github.com/victor-koval/raizel-beadcraft-catalog/actions/workflows/validate_catalog.yml)
 ![Total Beads](https://img.shields.io/badge/Preciosa%2010%2F0-502%20кольорів-ff69b4)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 Офіційний відкритий онлайн-каталог чеського бісеру **Preciosa Ornela** розміру **10/0** для мобільного застосунку **«Raizel Beadcraft»**.
 
 - **Кількість відтінків у базі:** <!-- COUNT_START -->**502 артикулів**<!-- COUNT_END -->
-- **Останнє оновлення:** <!-- DATE_START -->2026-11-15 10:58 UTC<!-- DATE_END -->
+- **Останнє оновлення каталогу:** <!-- DATE_START -->2026-11-15<!-- DATE_END -->
 - **Пряме посилання на сирий JSON для додатка:**  
   `https://raw.githubusercontent.com/victor-koval/raizel-beadcraft-catalog/main/preciosa_palette.json`
 
@@ -45,9 +45,26 @@
 
 ---
 
-## Автоматичне оновлення (GitHub Actions)
+## Як оновлюється каталог
 
-Репозиторій налаштований на регулярну синхронізацію та валідацію:
-1. **Періодичний запуск (Cron):** Щомісяця 1-го числа о 03:00 UTC виконується робочий процес `.github/workflows/update_catalog.yml`.
-2. **Ручний запуск (workflow_dispatch):** Можна запустити перевірку та синхронізацію в будь-який момент через вкладку **Actions** -> **Update & Validate Preciosa Catalog** -> **Run workflow**.
-3. **Автокоміт:** Якщо скрипт виявляє нові артикули або корективи, зміни автоматично комітяться від імені `github-actions[bot]`.
+Автоматичного завантаження кольорів від постачальників **немає** — каталог ведеться вручну.
+
+1. Додайте або виправте артикули в `preciosa_palette.json`
+   (або в списках `scripts/build_comprehensive_catalog.py` і перезапустіть його).
+2. Запустіть `python scripts/validate_catalog.py --fix` — файл буде відсортовано за кодом,
+   у README оновиться кількість і дата (лише якщо каталог справді змінився).
+3. Закомітьте в `master`.
+
+GitHub Actions (`.github/workflows/validate_catalog.yml`) на кожен push і pull request перевіряє
+обов'язкові поля, тип покриття, формат HEX і коду, унікальність кодів та сортування,
+а після push у `master` віддзеркалює його в `main` — саме звідти додаток бере каталог.
+
+Додаток Raizel Beadcraft має цей каталог вбудованим і **автоматично підтягує оновлення** з гілки `main`
+раз на добу під час запуску (умовний запит з ETag — без повторного завантаження, якщо нічого не змінилось).
+Також можна оновити вручну кнопкою синхронізації в палітрі Preciosa. Отже, щойно зміни потрапляють у `main`,
+нові кольори з'являються в додатку протягом доби.
+
+### Відомі обмеження
+- HEX-кольори **наближені** (не виміряні з реальних зразків Preciosa), тому частина артикулів має однаковий HEX.
+  Додаток автоматично робить колір кожного артикулу унікальним.
+- Символи (`symbol`) повторюються між артикулами; додаток призначає унікальні символи в межах кожної схеми.

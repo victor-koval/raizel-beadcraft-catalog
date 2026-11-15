@@ -1,0 +1,33 @@
+name: Validate Preciosa Catalog
+
+# Каталог оновлюється ВРУЧНУ (редагування preciosa_palette.json або scripts/build_comprehensive_catalog.py).
+# Цей workflow нічого не завантажує ззовні: він перевіряє файл і віддзеркалює master → main,
+# бо додаток Raizel Beadcraft читає каталог за адресою .../main/preciosa_palette.json.
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate catalog
+        run: python scripts/validate_catalog.py
+
+      - name: Mirror master to main (URL, який використовує додаток)
+        if: github.event_name != 'pull_request' && github.ref_name == 'master'
+        run: git push origin HEAD:refs/heads/main
