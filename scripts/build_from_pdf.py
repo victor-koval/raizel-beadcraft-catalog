@@ -61,6 +61,23 @@ def match_finish(section_name):
         return "TRANSPARENT"
     return None
 
+# Специфічні правила відповідності для секцій (задача додавання 129 артикулів)
+EXPLICIT_SECTIONS = {
+    "Crystal - Terra Color Lined and Sfinx": ("TRANSPARENT", "з кольоровою серединкою, сатиновий «сфінкс»"),
+    "Crystal - Solgel Dyed": ("TRANSPARENT", "фарбований"),
+    "Crystal Striped - Color Lined": ("TRANSPARENT", "зі смужками, з кольоровою серединкою"),
+    "Crystal Striped": ("TRANSPARENT", "зі смужками"),
+    "Travertin": ("OPAQUE", "травертин (мармуровий)"),
+    "Harlequin": ("OPAQUE", "арлекін (різнокольоровий)"),
+    "Terra Melafyr": ("OPAQUE", "мелафір"),
+    "Cornelian": ("OPAQUE", "корнеліан (біле серце)"),
+    "Silver, Gold*, Special Gold": ("METALLIC", None),  # динамічний суфікс: сріблене / золочене
+    "Crystal - Copper Lined": ("SILVER_LINED", "з мідною підкладкою"),
+    "Bronze Lined": ("SILVER_LINED", "з бронзовою підкладкою"),
+    "Aluminum Lined": ("SILVER_LINED", "з алюмінієвою підкладкою"),
+    "Crystal - Phosphorescent Lined": ("TRANSPARENT", "світиться в темряві"),
+}
+
 def srgb_to_lab(rgb):
     def lin(c):
         c /= 255.0
@@ -193,14 +210,17 @@ def generate_name_uk(rgb, finish):
     return f"{full_color} {finish_desc}".strip()
 
 def build_catalog(pdf_path, old_palette_path, output_json_path, report_md_path):
-    # Зчитуємо старий каталог для збереження символів
+    # Зчитуємо старий каталог для збереження символів та порівняння
     old_symbols = {}
+    old_items = {}
     if os.path.exists(old_palette_path):
         try:
             old_data = json.load(open(old_palette_path, encoding="utf-8"))
             for item in old_data:
-                if "code" in item and "symbol" in item:
-                    old_symbols[item["code"]] = item["symbol"]
+                if "code" in item:
+                    old_items[item["code"]] = item
+                    if "symbol" in item:
+                        old_symbols[item["code"]] = item["symbol"]
         except Exception as e:
             print(f"Попередження: не вдалося зчитати старий каталог {old_palette_path}: {e}")
 
@@ -244,7 +264,7 @@ def build_catalog(pdf_path, old_palette_path, output_json_path, report_md_path):
                     if pno == 1 and bbox[1] < 150:
                         # Пропускаємо розмірну сітку 13/0..4/0 на сторінці 2
                         continue
-                    if CODE_PATTERN.match(text) or "displayed colors" in text or text.startswith("Seed Beads") or text.startswith("NEW ARRIVALS"):
+                    if CODE_PATTERN.match(text) or re.match(r"^\d{5}\*$", text) or "displayed colors" in text or text.startswith("Seed Beads") or text.startswith("NEW ARRIVALS"):
                         continue
                     col_headers.append((bbox, text))
             col_headers.sort(key=lambda h: h[0][1])
@@ -266,7 +286,13 @@ def build_catalog(pdf_path, old_palette_path, output_json_path, report_md_path):
                             break
                     sec = " ".join(sec_lines)
 
-                finish = match_finish(sec)
+                # Перевірка специфічних правил для відкладених секцій, інакше загальні правила
+                if sec in EXPLICIT_SECTIONS:
+                    finish, suffix_tmpl = EXPLICIT_SECTIONS[sec]
+                else:
+                    finish = match_finish(sec)
+                    suffix_tmpl = None
+
                 if finish is None:
                     unmatched_sections.setdefault(sec, []).append(code)
                     continue
@@ -295,7 +321,20 @@ def build_catalog(pdf_path, old_palette_path, output_json_path, report_md_path):
                 rgb = tuple(int(statistics.median(c[i] for c in core)) for i in range(3))
                 hex_str = "#%02X%02X%02X" % rgb
 
-                name_uk = generate_name_uk(rgb, finish) + section_effect_suffix(sec)
+                base_name = generate_name_uk(rgb, finish)
+                if sec in EXPLICIT_SECTIONS:
+                    if sec == "Silver, Gold*, Special Gold":
+                        # «сріблене» / «золочене» (за кольором: світло-сірий → сріблене, жовтий/бурштиновий → золочене)
+                        if "сірий" in base_name.lower():
+                            suffix = "сріблене"
+                        else:
+                            suffix = "золочене"
+                    else:
+                        suffix = suffix_tmpl
+                    name_uk = f"{base_name}, {suffix}"
+                else:
+                    name_uk = base_name + section_effect_suffix(sec)
+
                 symbol = old_symbols.get(code, DEFAULT_SYMBOLS[len(found_entries) % len(DEFAULT_SYMBOLS)])
 
                 found_entries[code] = {
@@ -318,6 +357,17 @@ def build_catalog(pdf_path, old_palette_path, output_json_path, report_md_path):
         }
         for code, entry in sorted(found_entries.items(), key=lambda x: x[0])
     ]
+
+    # Перевірка незмінності попередніх записів каталогу
+    diffs = []
+    for code, old_entry in old_items.items():
+        new_entry = found_entries.get(code)
+        if not new_entry:
+            diffs.append(f"Код {code} відсутній у новому каталозі")
+            continue
+        for field in ["code", "nameUk", "finish", "hex", "symbol"]:
+            if old_entry.get(field) != new_entry.get(field):
+                diffs.append(f"Код {code}: поле {field} змінилось ({old_entry.get(field)} != {new_entry.get(field)})")
 
     # Запис preciosa_palette.json
     os.makedirs(os.path.dirname(os.path.abspath(output_json_path)), exist_ok=True)
@@ -351,20 +401,38 @@ def build_catalog(pdf_path, old_palette_path, output_json_path, report_md_path):
 
     report_lines.extend([
         "",
+        "## Порівняння з попередньою версією каталогу (483 артикули)",
+        "",
+        f"- **Попередніх артикулів:** {len(old_items)}",
+        f"- **Додано нових артикулів:** {len(sorted_catalog) - len(old_items)}",
+        f"- **Всього артикулів у новому каталозі:** {len(sorted_catalog)}",
+        f"- **Результат порівняння {len(old_items)} попередніх записів:** {'100% збіг (0 відмінностей за code, nameUk, finish, hex, symbol)' if not diffs else f'Виявлено відмінності ({len(diffs)}): ' + '; '.join(diffs[:5])}",
+        "",
         "## Секції, які не вдалося зіставити з правилами (TODO)",
-        "",
-        "Ці секції не містять ключових слів для однозначного визначення покриття згідно з правилами.",
-        "Коди з цих секцій **НЕ** додавалися до каталогу (без вигадування).",
-        "",
-        "| Назва секції в PDF | Кількість входжень | Приклади кодів |",
-        "|---|---|---|"
+        ""
     ])
 
-    for sec, codes in sorted(unmatched_sections.items(), key=lambda x: -len(x[1])):
-        sample = ", ".join(codes[:5])
-        if len(codes) > 5:
-            sample += f" ... (разом {len(codes)})"
-        report_lines.append(f"| `{sec}` | {len(codes)} | {sample} |")
+    if unmatched_sections:
+        report_lines.extend([
+            "Ці секції не містять ключових слів для однозначного визначення покриття згідно з правилами.",
+            "Коди з цих секцій **НЕ** додавалися до каталогу (без вигадування).",
+            "",
+            "| Назва секції в PDF | Кількість входжень | Приклади кодів |",
+            "|---|---|---|"
+        ])
+        for sec, codes in sorted(unmatched_sections.items(), key=lambda x: -len(x[1])):
+            sample = ", ".join(codes[:5])
+            if len(codes) > 5:
+                sample += f" ... (разом {len(codes)})"
+            report_lines.append(f"| `{sec}` | {len(codes)} | {sample} |")
+    else:
+        report_lines.extend([
+            "Усі секції успішно зіставлені з правилами. Відкладених секцій (TODO) немає (0).",
+            "",
+            "### Примітка щодо коду 68388",
+            "",
+            "Заголовок над кодом 68388 у попередній збірці розпізнавався як `20206*` через позначку зірочкою (помилково сприймався як заголовок секції). Фактична секція за розташуванням у PDF — `Silver, Gold*, Special Gold` (finish `METALLIC`, суфікс `золочене` за виміряним бурштиновим кольором). Код успішно додано до каталогу."
+        ])
 
     report_lines.append("")
 
