@@ -12,6 +12,7 @@ on:
       - 'preciosa_palette.json'
     branches:
       - main
+      - master
 
 permissions:
   contents: write
@@ -25,6 +26,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -44,7 +46,13 @@ jobs:
             echo "Changes detected in catalog. Committing and pushing..."
             git add preciosa_palette.json README.md
             git commit -m "chore(catalog): auto-update and validate Preciosa palette [skip ci]"
-            git push origin main
+            git push origin HEAD
+            # Тримаємо обидві гілки (main та master) синхронізованими
+            if [[ "${{ github.ref_name }}" == "master" ]]; then
+              git push origin HEAD:main
+            elif [[ "${{ github.ref_name }}" == "main" ]]; then
+              git push origin HEAD:master
+            fi
           else
             echo "No changes in catalog. Everything is up to date."
           fi
